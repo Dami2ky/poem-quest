@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>诗词大闯关 · 课本诗词挑战</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📜</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="sound-toggle" class="sound-toggle" title="声音开/关">🔊</button>
+
+<!-- ════════ 屏幕 1:标题 ════════ -->
+<section id="screen-title" class="screen active">
+  <div class="sky">
+    <div class="cloud c1">☁️</div><div class="cloud c2">☁️</div>
+    <div class="leaf l1">🍃</div><div class="leaf l2">🍃</div><div class="leaf l3">🍃</div>
+  </div>
+  <div class="title-wrap">
+    <div class="game-title">诗词<span class="title-accent">大闯关</span></div>
+    <div class="seal">闯关</div>
+    <div class="game-sub">一年级 到 高三 · 课本诗词全收录</div>
+    <div class="menu">
+      <button id="btn-grade" class="btn btn-red btn-big">📖 年级闯关</button>
+      <button id="btn-versus" class="btn btn-blue btn-big">⚔️ 双人对战</button>
+      <button id="btn-poets" class="btn btn-plain">👤 诗人图鉴</button>
+    </div>
+    <div class="dedication">— 为 诺一 &amp; 艺家 特别打造 —</div>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 2:选年级 ════════ -->
+<section id="screen-grade" class="screen">
+  <h2 class="screen-title">选择年级</h2>
+  <div class="mode-toggle">
+    <button id="mode-choice" class="mode-btn active">🔤 选择题</button>
+    <button id="mode-fill" class="mode-btn">✍️ 填空题</button>
+  </div>
+  <div class="grade-groups" id="grade-groups"></div>
+  <div class="chars-actions">
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 3:答题 ════════ -->
+<section id="screen-quiz" class="screen">
+  <div class="quiz-top">
+    <div class="grade-badge" id="grade-badge"></div>
+    <div class="hearts" id="hearts">❤️❤️❤️</div>
+    <div class="q-count" id="q-count">1 / 5</div>
+  </div>
+
+  <div class="versus-bar hidden" id="versus-bar">
+    <div class="vs-player" id="vs-p1"><span class="vs-ava">🥷</span><span class="vs-nm">诺一</span><b class="vs-score">0</b></div>
+    <div class="vs-turn" id="vs-turn"></div>
+    <div class="vs-player" id="vs-p2"><b class="vs-score">0</b><span class="vs-nm">艺家</span><span class="vs-ava">🎶</span></div>
+  </div>
+
+  <div class="timer-track"><div class="timer-bar" id="timer-bar"></div></div>
+
+  <div class="q-card" id="q-card">
+    <!-- 选择题 -->
+    <div id="choice-area">
+      <div class="q-meta"><span class="q-level" id="q-book">《静夜思》</span></div>
+      <div class="q-text" id="q-text"></div>
+      <div class="options" id="options"></div>
+    </div>
+    <!-- 填空题 -->
+    <div id="fill-area" class="hidden">
+      <div class="q-meta"><span class="q-book" id="fill-book">《宿建德江》· 孟浩然</span></div>
+      <div class="fill-line" id="fill-line"></div>
+      <div class="fill-tip">点字填入空格,点空格可退回</div>
+      <div class="char-pool" id="char-pool"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 弹层:反馈 / 回合结算 / 诗人卡片 -->
+<div id="overlay" class="overlay hidden">
+  <div class="overlay-card" id="overlay-card"></div>
+</div>
+
+<!-- ════════ 屏幕 4:双人对战确认 ════════ -->
+<section id="screen-vs-setup" class="screen">
+  <h2 class="screen-title">双人对战</h2>
+  <p class="screen-hint">轮流答题 · 答对 +10 分,手快最多再 +5 分</p>
+  <div class="chars-row">
+    <div class="char-card chosen-p1">
+      <div class="char-avatar">🥷</div>
+      <input class="char-name" id="p1-name" value="诺一" maxlength="6">
+      <div class="char-title">少年侠客</div>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="char-card chosen-p2">
+      <div class="char-avatar">🎶</div>
+      <input class="char-name" id="p2-name" value="艺家" maxlength="6">
+      <div class="char-title">乐府才女</div>
+    </div>
+  </div>
+  <div class="chars-actions">
+    <button id="btn-start-versus" class="btn btn-red">⚔️ 开战!</button>
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 5:对战结算 ════════ -->
+<section id="screen-versus-result" class="screen">
+  <div class="final-card">
+    <div class="final-emoji" id="vr-emoji">🏆</div>
+    <h2 class="screen-title" id="vr-title"></h2>
+    <div class="vr-scores" id="vr-scores"></div>
+    <div class="vr-history" id="vr-history"></div>
+    <div class="chars-actions">
+      <button id="btn-vr-again" class="btn btn-red">⚔️ 再来一局</button>
+      <button class="btn btn-plain btn-back" data-back="screen-title">🏠 主页</button>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 6:诗人图鉴 ════════ -->
+<section id="screen-poets" class="screen">
+  <div class="poets-wrap">
+    <h2 class="screen-title">诗人图鉴</h2>
+    <p class="screen-hint" id="poets-count"></p>
+    <p class="screen-hint">答对诗人的题即可解锁 TA 的名片</p>
+    <div class="poets-grid" id="poets-grid"></div>
+  </div>
+  <div class="chars-actions">
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<div id="confetti-layer"></div>
+
+<script src="bank.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
