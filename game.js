@@ -87,6 +87,43 @@ const unlocked = new Set(load("pq_unlocked", []));  // 诗人名
 const versusRec = load("pq_versus", { p1: 0, p2: 0 });
 const savedNames = load("pq_names", { p1: "诺一", p2: "艺家" });
 
+/* ════════ v1.1:家庭玩家花名册 / 成绩记录 / 主题进度 ════════ */
+const AVATARS = ["🥷", "🎶", "👑", "🐉", "🦊", "🐼", "🦉", "🐯", "🧚", "🤴", "👸", "🐶", "🐰", "🐧"];
+
+let roster = load("pq_roster", null);
+if (!roster || !roster.length) {
+  // 从旧双人对战名迁移初始花名册与战绩(名字键)
+  roster = [
+    { id: 1, name: savedNames.p1 || "诺一", avatar: "🥷" },
+    { id: 2, name: savedNames.p2 || "艺家", avatar: "🎶" },
+  ];
+  save("pq_roster", roster);
+  if (versusRec.p1 !== undefined) {
+    const vr = {};
+    vr[roster[0].name] = versusRec.p1 || 0;
+    vr[roster[1].name] = versusRec.p2 || 0;
+    save("pq_versus", vr);
+    Object.keys(versusRec).forEach(k => delete versusRec[k]);
+    Object.assign(versusRec, vr);
+  }
+}
+let currentPid = load("pq_current", roster[0].id);
+if (!roster.some(p => p.id === currentPid)) currentPid = roster[0].id;
+
+const records = load("pq_records", []);   // [{p, ava, ym(YYYY-MM), kind, label, stars}] 新的在前
+const themeProg = load("pq_themes", {});  // {themeId: {cleared, stars}}
+
+function me() { return roster.find(p => p.id === currentPid) || roster[0]; }
+function nowYM() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+function addRecord(kind, label, stars) {
+  records.unshift({ p: me().name, ava: me().avatar, ym: nowYM(), kind, label, stars: stars || null });
+  if (records.length > 200) records.length = 200;
+  save("pq_records", records);
+}
+
 /* ════════ 运行状态 ════════ */
 let quiz = null;      // 当前对局
 let gradeMode = "choice";  // choice | fill
@@ -132,14 +169,30 @@ $("#btn-grade").addEventListener("click", () => {
   renderGrades();
   showScreen("screen-grade");
 });
+$("#btn-theme").addEventListener("click", () => {
+  Sound.click(); Sound.startBGM();
+  renderThemes();
+  showScreen("screen-theme");
+});
 $("#btn-versus").addEventListener("click", () => {
   Sound.click(); Sound.startBGM();
+  renderVsPickers();
   showScreen("screen-vs-setup");
 });
 $("#btn-poets").addEventListener("click", () => {
   Sound.click();
   renderPoets();
   showScreen("screen-poets");
+});
+$("#btn-honor").addEventListener("click", () => {
+  Sound.click();
+  renderHonor();
+  showScreen("screen-honor");
+});
+$("#player-chip").addEventListener("click", () => {
+  Sound.click();
+  renderRoster();
+  showScreen("screen-player");
 });
 $("#sound-toggle").addEventListener("click", () => Sound.toggle());
 
@@ -216,7 +269,9 @@ function startTimer(seconds, onTimeout) {
 function startRound(grade) {
   const qs = gradeMode === "choice"
     ? shuffle(BANK.questions.filter(q => q.grade === grade)).slice(0, ROUND_CHOICE)
-    : shuffle(BANK.fills.filter(f => f.grade === grade)).slice(0, ROUND_FILL);
+        .map(q => ({ ...q, type: "choice" }))
+    : shuffle(BANK.fills.filter(f => f.grade === grade)).slice(0, ROUND_FILL)
+        .map(f => ({ ...f, type: "fill" }));
   if (!qs.length) return;
   quiz = {
     kind: "grade", grade, qs, qIdx: 0,
@@ -233,7 +288,7 @@ function renderQuestion() {
   $("#q-count").textContent = `${quiz.qIdx + 1} / ${quiz.qs.length}`;
   $("#hearts").textContent = "❤️".repeat(quiz.hearts) + "🖤".repeat(MAX_HEARTS - quiz.hearts);
 
-  const isChoice = gradeMode === "choice";
+  const isChoice = (item.type || "choice") === "choice";
   $("#choice-area").classList.toggle("hidden", !isChoice);
   $("#fill-area").classList.toggle("hidden", isChoice);
 
@@ -386,7 +441,7 @@ function settle(correct, timeout, answerText) {
 
   setTimeout(() => {
     let answerLine = answerText;
-    if (gradeMode === "fill" && !correct) {
+    if (item.type === "fill" && !correct) {
       let idx = 0;
       answerLine = item.display.replace(/□/g, () => item.chars[idx++] || "");
     }
@@ -421,18 +476,19 @@ function nextStep() {
     return;
   }
   if (quiz.hearts <= 0) return failRound();
-  if (quiz.qIdx >= quiz.qs.length - 1) return endRound();
+  if (quiz.qIdx >= quiz.qs.length - 1) return quiz.kind === "theme" ? endThemeRound() : endRound();
   quiz.qIdx++;
   closeOverlay();
   renderQuestion();
 }
 
-/* ── 回合结束 ── */
+/* ── 年级回合结束 ── */
 function endRound() {
   const stars = Math.max(1, quiz.hearts);
   const key = `${quiz.grade}:${gradeMode}`;
   bestStars[key] = Math.max(bestStars[key] || 0, stars);
   save("pq_best", bestStars);
+  addRecord("grade", `${GRADE_CN[quiz.grade]}年级${gradeMode === "choice" ? "选择" : "填空"}`, stars);
   Sound.fanfare();
   confetti(40);
   const total = quiz.qs.length;
@@ -454,43 +510,74 @@ function endRound() {
 function failRound() {
   Sound.fail();
   closeOverlay();
+  const retry = () => quiz.kind === "theme" ? startThemeRound(quiz.themeId) : startRound(quiz.grade);
   openOverlay(`
     <div class="ov-emoji">🍂</div>
     <div class="ov-title bad">墨尽笔枯!</div>
     <p style="margin:8px 0 4px;font-size:15px">心用完了…读一读小知识,再来一遍!</p>
     <div class="ov-actions">
       <button class="btn btn-red" id="ov-retry">🔁 重闯本轮</button>
-      <button class="btn btn-plain" id="ov-g1" style="color:var(--ink)">📚 换年级</button>
+      <button class="btn btn-plain" id="ov-g1" style="color:var(--ink)">↩️ 换个玩法</button>
     </div>
   `);
-  $("#ov-retry").addEventListener("click", () => { Sound.click(); closeOverlay(); startRound(quiz.grade); });
-  $("#ov-g1").addEventListener("click", () => { Sound.click(); closeOverlay(); renderGrades(); showScreen("screen-grade"); });
+  $("#ov-retry").addEventListener("click", () => { Sound.click(); closeOverlay(); retry(); });
+  $("#ov-g1").addEventListener("click", () => {
+    Sound.click(); closeOverlay();
+    quiz.kind === "theme" ? (renderThemes(), showScreen("screen-theme"))
+                          : (renderGrades(), showScreen("screen-grade"));
+  });
 }
 
-/* ════════ 双人对战 ════════ */
-$("#p1-name").value = savedNames.p1 || "诺一";
-$("#p2-name").value = savedNames.p2 || "艺家";
-function currentName(p) { return ($("#" + p + "-name").value.trim() || (p === "p1" ? "诺一" : "艺家")).slice(0, 6); }
+/* ════════ 双人对战(v1.1:从花名册选人) ════════ */
+let vsSel = { p1: null, p2: null };   // 玩家 id
+
+function renderVsPickers() {
+  if (vsSel.p1 === null || !roster.some(p => p.id === vsSel.p1)) vsSel.p1 = currentPid;
+  const other = roster.find(p => p.id !== vsSel.p1);
+  if (vsSel.p2 === null || !roster.some(p => p.id === vsSel.p2) || vsSel.p2 === vsSel.p1) {
+    vsSel.p2 = other ? other.id : vsSel.p1;
+  }
+  ["p1", "p2"].forEach(side => {
+    const box = $("#roster-vs-" + side);
+    box.innerHTML = "";
+    roster.forEach(p => {
+      const chip = document.createElement("button");
+      chip.className = "rm-chip" + (vsSel[side] === p.id ? ` sel-${side}` : "");
+      chip.textContent = `${p.avatar} ${p.name}`;
+      chip.addEventListener("click", () => {
+        Sound.click();
+        vsSel[side] = p.id;
+        if (vsSel.p1 === vsSel.p2) {  // 同人回避:自动把另一边换成别人
+          const alt = roster.find(x => x.id !== p.id);
+          if (alt) vsSel[side === "p1" ? "p2" : "p1"] = alt.id;
+        }
+        renderVsPickers();
+      });
+      box.appendChild(chip);
+    });
+    const sel = roster.find(p => p.id === vsSel[side]);
+    $("#vs-label-" + side).textContent = `${sel.avatar} ${side === "p1" ? "甲方" : "乙方"}`;
+  });
+}
 
 $("#btn-start-versus").addEventListener("click", () => {
   Sound.click();
-  savedNames.p1 = currentName("p1");
-  savedNames.p2 = currentName("p2");
-  save("pq_names", savedNames);
   startVersus();
 });
 
 function startVersus() {
+  const P1 = roster.find(p => p.id === vsSel.p1) || roster[0];
+  const P2 = roster.find(p => p.id === vsSel.p2) || roster[1] || roster[0];
   const easy = shuffle(BANK.questions.filter(q => q.grade <= 6)).slice(0, 3);
   const hard = shuffle(BANK.questions.filter(q => q.grade >= 7)).slice(0, 3);
   quiz = {
     kind: "versus",
-    qs: shuffle([...easy, ...hard]),
+    qs: shuffle([...easy, ...hard]).map(q => ({ ...q, type: "choice" })),
     qIdx: 0,
     turn: "p1",
     hearts: MAX_HEARTS,
-    p1: { name: savedNames.p1, score: 0 },
-    p2: { name: savedNames.p2, score: 0 },
+    p1: { name: P1.name, avatar: P1.avatar, score: 0 },
+    p2: { name: P2.name, avatar: P2.avatar, score: 0 },
     unlockedNow: [], locked: false
   };
   showScreen("screen-quiz");
@@ -508,6 +595,8 @@ function renderVersusQuestion() {
   $("#vs-p2").classList.toggle("active", quiz.turn === "p2");
   $("#vs-p1 .vs-nm").textContent = quiz.p1.name;
   $("#vs-p2 .vs-nm").textContent = quiz.p2.name;
+  $("#vs-p1 .vs-ava").textContent = quiz.p1.avatar;
+  $("#vs-p2 .vs-ava").textContent = quiz.p2.avatar;
   $("#vs-p1 .vs-score").textContent = quiz.p1.score;
   $("#vs-p2 .vs-score").textContent = quiz.p2.score;
   $("#vs-turn").textContent = `轮到 ${quiz[quiz.turn].name} 了`;
@@ -571,16 +660,24 @@ function answerVersus(btn, correct, timeout = false) {
 function endVersus() {
   const { p1, p2 } = quiz;
   const winner = p1.score === p2.score ? null : (p1.score > p2.score ? p1 : p2);
-  if (winner) versusRec[winner === p1 ? "p1" : "p2"]++;
+  if (winner) versusRec[winner.name] = (versusRec[winner.name] || 0) + 1;
   save("pq_versus", versusRec);
+  const winnerPid = winner && roster.find(p => p.name === winner.name)?.id;
+  if (winnerPid !== undefined && winnerPid !== null) {
+    const prev = currentPid;
+    currentPid = winnerPid; save("pq_current", currentPid);
+    addRecord("versus", `对战 ${quiz.p1.name} ${p1.score} : ${p2.score} ${quiz.p2.name}`, null);
+    currentPid = prev; save("pq_current", currentPid);
+  }
   $("#vr-emoji").textContent = winner ? "🏆" : "🤝";
   $("#vr-title").textContent = winner ? `${winner.name} 获胜!` : "平局,势均力敌!";
   if (winner) { Sound.fanfare(); confetti(46); } else Sound.correct();
   $("#vr-scores").innerHTML = `
-    <div class="vr-player"><div class="vr-ava">🥷</div><div class="vr-name">${p1.name}</div><div class="vr-pts">${p1.score}</div></div>
+    <div class="vr-player"><div class="vr-ava">${p1.avatar}</div><div class="vr-name">${p1.name}</div><div class="vr-pts">${p1.score}</div></div>
     <div class="vr-vs">VS</div>
-    <div class="vr-player"><div class="vr-ava">🎶</div><div class="vr-name">${p2.name}</div><div class="vr-pts">${p2.score}</div></div>`;
-  $("#vr-history").textContent = `历史战绩:${savedNames.p1} ${versusRec.p1} 胜 · ${savedNames.p2} ${versusRec.p2} 胜`;
+    <div class="vr-player"><div class="vr-ava">${p2.avatar}</div><div class="vr-name">${p2.name}</div><div class="vr-pts">${p2.score}</div></div>`;
+  const histLine = roster.map(p => `${p.name} ${versusRec[p.name] || 0} 胜`).join(" · ");
+  $("#vr-history").textContent = `历史战绩:${histLine}`;
   showScreen("screen-versus-result");
 }
 
@@ -624,6 +721,244 @@ function renderPoets() {
   });
 }
 
+/* ════════ v1.1:主题闯关 ════════ */
+const TIER_LABEL = { main: "主线 · 万象", emotion: "情感 · 支线", advanced: "进阶 · 大师" };
+
+function isThemeUnlocked(t) {
+  if (t.unlock === "always") return true;
+  if (t.unlock.startsWith("after:")) return !!(themeProg[t.unlock.slice(6)] || {}).cleared;
+  if (t.unlock === "all_main") {
+    return BANK.themes.filter(x => x.tier === "main").every(x => (themeProg[x.id] || {}).cleared);
+  }
+  return true;
+}
+
+function themeUnlockHint(t) {
+  if (isThemeUnlocked(t)) return null;
+  if (t.unlock.startsWith("after:")) {
+    const prev = BANK.themes.find(x => x.id === t.unlock.slice(6));
+    return `先通关「${prev ? prev.name : "?"}」解锁`;
+  }
+  return "主线四关全通后解锁";
+}
+
+function renderThemes() {
+  const groups = [["main"], ["emotion"], ["advanced"]];
+  const box = $("#theme-groups");
+  box.innerHTML = "";
+  groups.forEach(([tier]) => {
+    const list = BANK.themes.filter(t => t.tier === tier);
+    if (!list.length) return;
+    const div = document.createElement("div");
+    div.className = "theme-group";
+    div.innerHTML = `<h3>${TIER_LABEL[tier]}</h3><div class="theme-grid"></div>`;
+    const grid = div.querySelector(".theme-grid");
+    list.forEach(t => {
+      const ok = isThemeUnlocked(t);
+      const prog = themeProg[t.id] || {};
+      const card = document.createElement("button");
+      card.className = "theme-card" + (ok ? "" : " locked");
+      card.style.setProperty("--tc", t.color);
+      card.innerHTML = `
+        ${ok ? "" : `<span class="t-lock">🔒</span>`}
+        <div class="t-head"><span class="t-icon">${t.icon}</span><span class="t-name">${t.name}</span></div>
+        <div class="t-quote">${t.quote}</div>
+        <div class="t-meta">${t.poemIds.length} 首 · <span class="t-stars">${prog.cleared ? "⭐".repeat(prog.stars || 1) : (ok ? "未通关" : "")}</span></div>`;
+      if (ok) {
+        card.addEventListener("click", () => { Sound.click(); startThemeRound(t.id); });
+      } else {
+        card.addEventListener("click", () => {
+          Sound.wrong();
+          card.querySelector(".t-meta").textContent = themeUnlockHint(t);
+        });
+      }
+      grid.appendChild(card);
+    });
+    box.appendChild(div);
+  });
+}
+
+function startThemeRound(themeId) {
+  const t = BANK.themes.find(x => x.id === themeId);
+  const ids = new Set(t.poemIds);
+  const qs = shuffle(BANK.questions.filter(q => (q.themes || []).includes(themeId))).slice(0, 5)
+    .map(q => ({ ...q, type: "choice" }));
+  const fs = shuffle(BANK.fills.filter(f => (f.themes || []).includes(themeId))).slice(0, 2)
+    .map(f => ({ ...f, type: "fill" }));
+  if (qs.length + fs.length < 3) return;
+  quiz = {
+    kind: "theme", themeId, qs: shuffle([...qs, ...fs]), qIdx: 0,
+    hearts: MAX_HEARTS, correctCount: 0, unlockedNow: [], locked: false
+  };
+  showScreen("screen-quiz");
+  $("#grade-badge").textContent = `${t.icon} ${t.name}`;
+  $("#versus-bar").classList.add("hidden");
+  renderQuestion();
+}
+
+function endThemeRound() {
+  const t = BANK.themes.find(x => x.id === quiz.themeId);
+  const stars = Math.max(1, quiz.hearts);
+  const prog = themeProg[quiz.themeId] || {};
+  const firstClear = !prog.cleared;
+  prog.cleared = true;
+  prog.stars = Math.max(prog.stars || 0, stars);
+  themeProg[quiz.themeId] = prog;
+  save("pq_themes", themeProg);
+  addRecord("theme", `${t.icon}${t.name} 通关`, stars);
+  Sound.fanfare();
+  confetti(46);
+
+  // 结算时提示新解锁的主题(解锁条件刚被本次通关满足,且尚未通关的)
+  const justUnlocked = BANK.themes.filter(x => {
+    if ((themeProg[x.id] || {}).cleared || !isThemeUnlocked(x)) return false;
+    if (x.unlock === `after:${quiz.themeId}`) return true;
+    if (x.unlock === "all_main" && (themeProg[quiz.themeId] || {}).cleared) {
+      return BANK.themes.filter(m => m.tier === "main").every(m => (themeProg[m.id] || {}).cleared);
+    }
+    return false;
+  });
+  const unlockLine = justUnlocked.length
+    ? `<div class="ov-unlock">🔓 新主题解锁:${justUnlocked.map(x => x.icon + x.name).join("、")}</div>` : "";
+
+  openOverlay(`
+    <div class="ov-emoji">${t.icon}</div>
+    <div class="ov-title good">${t.name} · 通关!</div>
+    <div class="ov-stars">${"⭐".repeat(stars)}${"✩".repeat(3 - stars)}</div>
+    <div class="ov-sub">答对 ${quiz.correctCount} / ${quiz.qs.length} 题</div>
+    ${firstClear ? `<div class="ov-unlock">🏅 首次通关,记入荣誉榜!</div>` : ""}
+    ${unlockLine}
+    <div class="ov-fact"><b>${t.quote}</b></div>
+    <div class="ov-actions">
+      <button class="btn btn-green" id="ov-t-again">🔁 再闯一次</button>
+      <button class="btn btn-plain" id="ov-t-back" style="color:var(--ink)">🎴 换主题</button>
+    </div>
+  `);
+  $("#ov-t-again").addEventListener("click", () => { Sound.click(); closeOverlay(); startThemeRound(quiz.themeId); });
+  $("#ov-t-back").addEventListener("click", () => { Sound.click(); closeOverlay(); renderThemes(); showScreen("screen-theme"); });
+}
+
+/* ════════ v1.1:花名册 ════════ */
+let pickedAvatar = AVATARS[0];
+
+function updatePlayerChip() {
+  const p = me();
+  $("#player-chip").textContent = `${p.avatar} ${p.name} ▾`;
+}
+
+function renderRoster() {
+  updatePlayerChip();
+  const grid = $("#roster-grid");
+  grid.innerHTML = "";
+  roster.forEach(p => {
+    const stars = records.filter(r => r.p === p.name && r.stars).reduce((s, r) => s + r.stars, 0);
+    const wins = versusRec[p.name] || 0;
+    const themesN = new Set(records.filter(r => r.p === p.name && r.kind === "theme").map(r => r.label)).size;
+    const card = document.createElement("div");
+    card.className = "roster-card" + (p.id === currentPid ? " current" : "");
+    card.innerHTML = `
+      ${roster.length > 1 ? `<button class="r-del" title="移除玩家">✕</button>` : ""}
+      <div class="r-avatar">${p.avatar}</div>
+      <div class="r-name">${p.name}</div>
+      <div class="r-tag">${p.id === currentPid ? "▶ 当前玩家" : "点击上场"}</div>
+      <div class="r-tag">⭐${stars} · 🏅${themesN} · 🏆${wins}</div>`;
+    card.addEventListener("click", e => {
+      if (e.target.classList.contains("r-del")) return;
+      Sound.click();
+      currentPid = p.id;
+      save("pq_current", currentPid);
+      renderRoster();
+    });
+    card.querySelector(".r-del")?.addEventListener("click", e => {
+      e.stopPropagation();
+      openOverlay(`
+        <div class="ov-emoji">👋</div>
+        <div class="ov-title">移除「${p.name}」?</div>
+        <p style="margin:8px 0;font-size:14.5px">TA 的成绩记录会保留在荣誉榜,但玩家卡将删除</p>
+        <div class="ov-actions">
+          <button class="btn btn-red" id="ov-del-yes">移除</button>
+          <button class="btn btn-plain" id="ov-del-no" style="color:var(--ink)">取消</button>
+        </div>`);
+      $("#ov-del-yes").addEventListener("click", () => {
+        Sound.click();
+        roster = roster.filter(x => x.id !== p.id);
+        if (currentPid === p.id) { currentPid = roster[0].id; save("pq_current", currentPid); }
+        save("pq_roster", roster);
+        closeOverlay();
+        renderRoster();
+      });
+      $("#ov-del-no").addEventListener("click", () => { Sound.click(); closeOverlay(); });
+    });
+    grid.appendChild(card);
+  });
+  renderAvatarPick();
+}
+
+function renderAvatarPick() {
+  const box = $("#avatar-pick");
+  box.innerHTML = "";
+  AVATARS.forEach(a => {
+    const b = document.createElement("button");
+    b.textContent = a;
+    if (a === pickedAvatar) b.classList.add("sel");
+    b.addEventListener("click", () => { Sound.click(); pickedAvatar = a; renderAvatarPick(); });
+    box.appendChild(b);
+  });
+}
+
+$("#btn-add-player").addEventListener("click", () => {
+  const name = ($("#new-player-name").value.trim() || "").slice(0, 6);
+  if (!name) return Sound.wrong();
+  if (roster.some(p => p.name === name)) {
+    Sound.wrong();
+    $("#new-player-name").value = "";
+    return;
+  }
+  Sound.correct();
+  roster.push({ id: Date.now(), name, avatar: pickedAvatar });
+  save("pq_roster", roster);
+  $("#new-player-name").value = "";
+  renderRoster();
+});
+
+/* ════════ v1.1:家庭荣誉榜 ════════ */
+function renderHonor() {
+  updatePlayerChip();
+  // 每位玩家汇总卡
+  const sum = $("#honor-summary");
+  sum.innerHTML = "";
+  roster.forEach(p => {
+    const stars = records.filter(r => r.p === p.name && r.stars).reduce((s, r) => s + r.stars, 0);
+    const rounds = records.filter(r => r.p === p.name).length;
+    const wins = versusRec[p.name] || 0;
+    const themesN = new Set(records.filter(r => r.p === p.name && r.kind === "theme").map(r => r.label)).size;
+    const card = document.createElement("div");
+    card.className = "honor-card";
+    card.innerHTML = `
+      <div class="h-ava">${p.avatar}</div>
+      <div class="h-name">${p.name}</div>
+      <div class="h-stat">累计 <b>${stars}</b> ⭐ · <b>${themesN}</b> 🎴<br>完成 <b>${rounds}</b> 轮 · 对战 <b>${wins}</b> 胜</div>`;
+    sum.appendChild(card);
+  });
+  // 时间线
+  $("#honor-sub").textContent = `共 ${records.length} 条成绩 · 按时间倒序`;
+  const tl = $("#honor-timeline");
+  tl.innerHTML = "";
+  if (!records.length) {
+    tl.innerHTML = `<div class="tl-item"><span class="tl-text">还没有成绩,去闯一关吧!</span></div>`;
+    return;
+  }
+  records.forEach(r => {
+    const div = document.createElement("div");
+    div.className = "tl-item";
+    const star = r.stars ? `<span class="tl-star">${"⭐".repeat(r.stars)}</span>` : "";
+    const kindIcon = r.kind === "theme" ? "🎴" : r.kind === "versus" ? "⚔️" : "📖";
+    div.innerHTML = `<span class="tl-ym">${r.ym}</span><span class="tl-ava">${r.ava || "👤"}</span>
+      <span class="tl-text"><b>${r.p}</b> ${kindIcon} ${r.label}</span>${star}`;
+    tl.appendChild(div);
+  });
+}
+
 /* ════════ 启动 ════════ */
 document.addEventListener("pointerdown", function once() {
   Sound.ensure();
@@ -631,3 +966,4 @@ document.addEventListener("pointerdown", function once() {
   document.removeEventListener("pointerdown", once);
 });
 $("#sound-toggle").textContent = Sound.enabled ? "🔊" : "🔇";
+updatePlayerChip();
