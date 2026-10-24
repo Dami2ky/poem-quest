@@ -21,10 +21,13 @@
     <div class="game-title">诗词<span class="title-accent">大闯关</span></div>
     <div class="seal">闯关</div>
     <div class="game-sub">一年级 到 高三 · 课本诗词全收录</div>
+    <button id="player-chip" class="player-chip" title="点击切换玩家">🥷 诺一 ▾</button>
     <div class="menu">
       <button id="btn-grade" class="btn btn-red btn-big">📖 年级闯关</button>
+      <button id="btn-theme" class="btn btn-green btn-big">🎴 主题闯关</button>
       <button id="btn-versus" class="btn btn-blue btn-big">⚔️ 双人对战</button>
       <button id="btn-poets" class="btn btn-plain">👤 诗人图鉴</button>
+      <button id="btn-honor" class="btn btn-plain">🏆 家庭荣誉榜</button>
     </div>
     <div class="dedication">— 为 诺一 &amp; 艺家 特别打造 —</div>
   </div>
@@ -84,18 +87,16 @@
 <!-- ════════ 屏幕 4:双人对战确认 ════════ -->
 <section id="screen-vs-setup" class="screen">
   <h2 class="screen-title">双人对战</h2>
-  <p class="screen-hint">轮流答题 · 答对 +10 分,手快最多再 +5 分</p>
-  <div class="chars-row">
-    <div class="char-card chosen-p1">
-      <div class="char-avatar">🥷</div>
-      <input class="char-name" id="p1-name" value="诺一" maxlength="6">
-      <div class="char-title">少年侠客</div>
+  <p class="screen-hint">从家庭花名册选人 · 轮流答题 · 答对 +10 分,手快最多再 +5 分</p>
+  <div class="vs-pick">
+    <div class="vs-pick-side">
+      <h3 class="vs-pick-label" id="vs-label-p1">🥷 甲方</h3>
+      <div class="roster-mini" id="roster-vs-p1"></div>
     </div>
     <div class="vs-badge">VS</div>
-    <div class="char-card chosen-p2">
-      <div class="char-avatar">🎶</div>
-      <input class="char-name" id="p2-name" value="艺家" maxlength="6">
-      <div class="char-title">乐府才女</div>
+    <div class="vs-pick-side">
+      <h3 class="vs-pick-label" id="vs-label-p2">🎶 乙方</h3>
+      <div class="roster-mini" id="roster-vs-p2"></div>
     </div>
   </div>
   <div class="chars-actions">
@@ -125,6 +126,49 @@
     <p class="screen-hint" id="poets-count"></p>
     <p class="screen-hint">答对诗人的题即可解锁 TA 的名片</p>
     <div class="poets-grid" id="poets-grid"></div>
+  </div>
+  <div class="chars-actions">
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 7:主题闯关选择 ════════ -->
+<section id="screen-theme" class="screen">
+  <div class="poets-wrap">
+    <h2 class="screen-title">主题闯关</h2>
+    <p class="screen-hint">按意境学诗词 · 每轮 5 道选择题 + 2 条填空 · 通关解锁下一主题</p>
+    <div class="theme-groups" id="theme-groups"></div>
+  </div>
+  <div class="chars-actions">
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 8:玩家花名册 ════════ -->
+<section id="screen-player" class="screen">
+  <div class="poets-wrap">
+    <h2 class="screen-title">家庭玩家</h2>
+    <p class="screen-hint">谁是当前玩家?点头像切换 · 全家都能上榜</p>
+    <div class="roster-grid" id="roster-grid"></div>
+    <div class="roster-add">
+      <input id="new-player-name" class="roster-input" placeholder="新玩家名字" maxlength="6">
+      <div class="avatar-pick" id="avatar-pick"></div>
+      <button id="btn-add-player" class="btn btn-blue">➕ 加入家庭</button>
+    </div>
+  </div>
+  <div class="chars-actions">
+    <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
+  </div>
+</section>
+
+<!-- ════════ 屏幕 9:家庭荣誉榜 ════════ -->
+<section id="screen-honor" class="screen">
+  <div class="poets-wrap">
+    <h2 class="screen-title">🏆 家庭荣誉榜</h2>
+    <p class="screen-hint" id="honor-sub"></p>
+    <div class="honor-summary" id="honor-summary"></div>
+    <h3 class="honor-tl-title">成绩时间线</h3>
+    <div class="honor-timeline" id="honor-timeline"></div>
   </div>
   <div class="chars-actions">
     <button class="btn btn-plain btn-back" data-back="screen-title">← 返回</button>
