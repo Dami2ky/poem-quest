@@ -7,6 +7,7 @@ window.POEM_BANK = {
  "source": "xixi-poem-game 数据(MIT,176 首课本诗)",
  "questions": [
   {
+   "pid": "g1_001",
    "grade": 1,
    "title": "咏鹅",
    "author": "骆宾王",
@@ -19,9 +20,13 @@ window.POEM_BANK = {
     "唐寅",
     "刘禹锡"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_001",
    "grade": 1,
    "title": "咏鹅",
    "author": "骆宾王",
@@ -34,9 +39,13 @@ window.POEM_BANK = {
     "拉余同饮。",
     "曲项向天歌。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_002",
    "grade": 1,
    "title": "江南",
    "author": "汉乐府",
@@ -49,9 +58,13 @@ window.POEM_BANK = {
     "纳兰性德",
     "秦观"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_002",
    "grade": 1,
    "title": "江南",
    "author": "汉乐府",
@@ -64,9 +77,13 @@ window.POEM_BANK = {
     "七夕今宵看碧霄，",
     "不论平地与山尖，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_003",
    "grade": 1,
    "title": "画",
    "author": "王维",
@@ -79,9 +96,14 @@ window.POEM_BANK = {
     "纳兰性德",
     "王维"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g1_003",
    "grade": 1,
    "title": "画",
    "author": "王维",
@@ -94,9 +116,14 @@ window.POEM_BANK = {
     "近听水无声。",
     "何夜无月？"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g1_004",
    "grade": 1,
    "title": "悯农·其二",
    "author": "李绅",
@@ -109,9 +136,13 @@ window.POEM_BANK = {
     "韩翃",
     "李绅"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_004",
    "grade": 1,
    "title": "悯农·其二",
    "author": "李绅",
@@ -124,9 +155,13 @@ window.POEM_BANK = {
     "谁知盘中餐，",
     "飞在青云端。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_005",
    "grade": 1,
    "title": "古朗月行",
    "author": "李白",
@@ -139,9 +174,11 @@ window.POEM_BANK = {
     "崔颢",
     "李白"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": []
   },
   {
+   "pid": "g1_005",
    "grade": 1,
    "title": "古朗月行",
    "author": "李白",
@@ -154,9 +191,11 @@ window.POEM_BANK = {
     "飞在青云端。",
     "山外青山楼外楼，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g1_006",
    "grade": 1,
    "title": "风",
    "author": "李峤",
@@ -169,9 +208,13 @@ window.POEM_BANK = {
     "屈原",
     "李峤"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_006",
    "grade": 1,
    "title": "风",
    "author": "李峤",
@@ -184,9 +227,13 @@ window.POEM_BANK = {
     "欲将轻骑逐，",
     "忽闻岸上踏歌声。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_007",
    "grade": 1,
    "title": "春晓",
    "author": "孟浩然",
@@ -199,9 +246,13 @@ window.POEM_BANK = {
     "柳宗元",
     "韩愈"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g1_007",
    "grade": 1,
    "title": "春晓",
    "author": "孟浩然",
@@ -214,9 +265,13 @@ window.POEM_BANK = {
     "李白乘舟将欲行，",
     "萧萧梧叶送寒声，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g1_008",
    "grade": 1,
    "title": "赠汪伦",
    "author": "李白",
@@ -229,9 +284,14 @@ window.POEM_BANK = {
     "韩愈",
     "范仲淹"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g1_008",
    "grade": 1,
    "title": "赠汪伦",
    "author": "李白",
@@ -244,9 +304,14 @@ window.POEM_BANK = {
     "小扣柴扉久不开。",
     "终古高云簇此城，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g1_009",
    "grade": 1,
    "title": "静夜思",
    "author": "李白",
@@ -259,9 +324,14 @@ window.POEM_BANK = {
     "李白",
     "李煜"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_009",
    "grade": 1,
    "title": "静夜思",
    "author": "李白",
@@ -274,9 +344,14 @@ window.POEM_BANK = {
     "斜风细雨不须归。",
     "最是一年春好处，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_010",
    "grade": 1,
    "title": "寻隐者不遇",
    "author": "贾岛",
@@ -289,9 +364,13 @@ window.POEM_BANK = {
     "韩翃",
     "辛弃疾"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_010",
    "grade": 1,
    "title": "寻隐者不遇",
    "author": "贾岛",
@@ -304,9 +383,13 @@ window.POEM_BANK = {
     "乱入池中看不见，",
     "云深不知处。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_011",
    "grade": 1,
    "title": "人之初",
    "author": "王应麟",
@@ -319,9 +402,11 @@ window.POEM_BANK = {
     "李白",
     "王应麟"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": []
   },
   {
+   "pid": "g1_011",
    "grade": 1,
    "title": "人之初",
    "author": "王应麟",
@@ -334,9 +419,11 @@ window.POEM_BANK = {
     "曲项向天歌。",
     "苟不教，性乃迁。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": []
   },
   {
+   "pid": "g1_012",
    "grade": 1,
    "title": "池上",
    "author": "白居易",
@@ -349,9 +436,13 @@ window.POEM_BANK = {
     "胡令能",
     "白居易"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_012",
    "grade": 1,
    "title": "池上",
    "author": "白居易",
@@ -364,9 +455,13 @@ window.POEM_BANK = {
     "何夜无月？",
     "偷采白莲回。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_013",
    "grade": 1,
    "title": "小池",
    "author": "杨万里",
@@ -379,9 +474,13 @@ window.POEM_BANK = {
     "杨万里",
     "王翰"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_013",
    "grade": 1,
    "title": "小池",
    "author": "杨万里",
@@ -394,9 +493,13 @@ window.POEM_BANK = {
     "家祭无忘告乃翁。",
     "不教胡马度阴山。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_014",
    "grade": 1,
    "title": "画鸡",
    "author": "唐寅",
@@ -409,9 +512,13 @@ window.POEM_BANK = {
     "唐寅",
     "朱熹"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g1_014",
    "grade": 1,
    "title": "画鸡",
    "author": "唐寅",
@@ -424,9 +531,13 @@ window.POEM_BANK = {
     "却话巴山夜雨时。",
     "平生不敢轻言语，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g2_001",
    "grade": 2,
    "title": "梅花",
    "author": "王安石",
@@ -439,9 +550,14 @@ window.POEM_BANK = {
     "沈复",
     "翁卷"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_001",
    "grade": 2,
    "title": "梅花",
    "author": "王安石",
@@ -454,9 +570,14 @@ window.POEM_BANK = {
     "两山排闼送青来。",
     "羌笛何须怨杨柳，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_002",
    "grade": 2,
    "title": "小儿垂钓",
    "author": "胡令能",
@@ -469,9 +590,13 @@ window.POEM_BANK = {
     "高适",
     "胡令能"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_002",
    "grade": 2,
    "title": "小儿垂钓",
    "author": "胡令能",
@@ -484,9 +609,13 @@ window.POEM_BANK = {
     "望湖楼下水如天。",
     "侧坐莓苔草映身。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_003",
    "grade": 2,
    "title": "登鹳雀楼",
    "author": "王之涣",
@@ -499,9 +628,14 @@ window.POEM_BANK = {
     "王之涣",
     "毛泽东"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_003",
    "grade": 2,
    "title": "登鹳雀楼",
    "author": "王之涣",
@@ -514,9 +648,14 @@ window.POEM_BANK = {
     "绿阴不减来时路，",
     "飞入菜花无处寻。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_004",
    "grade": 2,
    "title": "望庐山瀑布",
    "author": "李白",
@@ -529,9 +668,13 @@ window.POEM_BANK = {
     "韩翃",
     "林嗣环"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_004",
    "grade": 2,
    "title": "望庐山瀑布",
    "author": "李白",
@@ -544,9 +687,13 @@ window.POEM_BANK = {
     "江清月近人。",
     "山衔落日浸寒漪。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_005",
    "grade": 2,
    "title": "江雪",
    "author": "柳宗元",
@@ -559,9 +706,15 @@ window.POEM_BANK = {
     "柳宗元",
     "晏殊"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_005",
    "grade": 2,
    "title": "江雪",
    "author": "柳宗元",
@@ -574,9 +727,15 @@ window.POEM_BANK = {
     "万径人踪灭。",
     "燕山月似钩。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_006",
    "grade": 2,
    "title": "夜宿山寺",
    "author": "李白",
@@ -589,9 +748,13 @@ window.POEM_BANK = {
     "范仲淹",
     "张岱"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_006",
    "grade": 2,
    "title": "夜宿山寺",
    "author": "李白",
@@ -604,9 +767,13 @@ window.POEM_BANK = {
     "春种一粒粟，",
     "春眠不觉晓，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_007",
    "grade": 2,
    "title": "敕勒歌",
    "author": "佚名",
@@ -619,9 +786,13 @@ window.POEM_BANK = {
     "刘禹锡",
     "范成大"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_007",
    "grade": 2,
    "title": "敕勒歌",
    "author": "佚名",
@@ -634,9 +805,13 @@ window.POEM_BANK = {
     "我有嘉宾，鼓瑟吹笙。",
     "风吹草低见牛羊。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_008",
    "grade": 2,
    "title": "村居",
    "author": "高鼎",
@@ -649,9 +824,14 @@ window.POEM_BANK = {
     "高鼎",
     "屈原"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g2_008",
    "grade": 2,
    "title": "村居",
    "author": "高鼎",
@@ -664,9 +844,14 @@ window.POEM_BANK = {
     "江清月近人。",
     "初极狭，才通人。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g2_009",
    "grade": 2,
    "title": "咏柳",
    "author": "贺知章",
@@ -679,9 +864,13 @@ window.POEM_BANK = {
     "范成大",
     "张志和"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g2_009",
    "grade": 2,
    "title": "咏柳",
    "author": "贺知章",
@@ -694,9 +883,13 @@ window.POEM_BANK = {
     "只有敬亭山。",
     "不知细叶谁裁出，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g2_010",
    "grade": 2,
    "title": "赋得古原草送别",
    "author": "白居易",
@@ -709,9 +902,15 @@ window.POEM_BANK = {
     "王之涣",
     "林杰"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "farewell",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_010",
    "grade": 2,
    "title": "赋得古原草送别",
    "author": "白居易",
@@ -724,9 +923,15 @@ window.POEM_BANK = {
     "两岸猿声啼不住，",
     "不拘一格降人才。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "farewell",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_011",
    "grade": 2,
    "title": "晓出净慈寺送林子方",
    "author": "杨万里",
@@ -739,9 +944,14 @@ window.POEM_BANK = {
     "杨万里",
     "张志和"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g2_011",
    "grade": 2,
    "title": "晓出净慈寺送林子方",
    "author": "杨万里",
@@ -754,9 +964,14 @@ window.POEM_BANK = {
     "东临碣石，以观沧海。",
     "故人西辞黄鹤楼，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g2_012",
    "grade": 2,
    "title": "绝句",
    "author": "杜甫",
@@ -769,9 +984,16 @@ window.POEM_BANK = {
     "杜甫",
     "林升"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_012",
    "grade": 2,
    "title": "绝句",
    "author": "杜甫",
@@ -784,9 +1006,16 @@ window.POEM_BANK = {
     "移舟泊烟渚，",
     "强欲登高去，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_013",
    "grade": 2,
    "title": "悯农·其一",
    "author": "李绅",
@@ -799,9 +1028,15 @@ window.POEM_BANK = {
     "林嗣环",
     "韩愈"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_013",
    "grade": 2,
    "title": "悯农·其一",
    "author": "李绅",
@@ -814,9 +1049,15 @@ window.POEM_BANK = {
     "一水护田将绿绕，",
     "三万里河东入海，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_014",
    "grade": 2,
    "title": "舟夜书所见",
    "author": "查慎行",
@@ -829,9 +1070,13 @@ window.POEM_BANK = {
     "查慎行",
     "韦应物"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_014",
    "grade": 2,
    "title": "舟夜书所见",
    "author": "查慎行",
@@ -844,9 +1089,13 @@ window.POEM_BANK = {
     "忽作玻璃碎地声。",
     "远近高低各不同。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_001",
    "grade": 3,
    "title": "所见",
    "author": "袁枚",
@@ -859,9 +1108,13 @@ window.POEM_BANK = {
     "纳兰性德",
     "李峤"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_001",
    "grade": 3,
    "title": "所见",
    "author": "袁枚",
@@ -874,9 +1127,13 @@ window.POEM_BANK = {
     "影入平羌江水流。",
     "初极狭，才通人。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_002",
    "grade": 3,
    "title": "山行",
    "author": "杜牧",
@@ -889,9 +1146,15 @@ window.POEM_BANK = {
     "王昌龄",
     "王建"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_002",
    "grade": 3,
    "title": "山行",
    "author": "杜牧",
@@ -904,9 +1167,15 @@ window.POEM_BANK = {
     "霜叶红于二月花。",
     "日长篱落无人过，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_003",
    "grade": 3,
    "title": "赠刘景文",
    "author": "苏轼",
@@ -919,9 +1188,14 @@ window.POEM_BANK = {
     "岑参",
     "范成大"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_003",
    "grade": 3,
    "title": "赠刘景文",
    "author": "苏轼",
@@ -934,9 +1208,14 @@ window.POEM_BANK = {
     "最是橙黄橘绿时。",
     "不破楼兰终不还。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_004",
    "grade": 3,
    "title": "夜书所见",
    "author": "叶绍翁",
@@ -949,9 +1228,17 @@ window.POEM_BANK = {
     "查慎行",
     "李白"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_004",
    "grade": 3,
    "title": "夜书所见",
    "author": "叶绍翁",
@@ -964,9 +1251,17 @@ window.POEM_BANK = {
     "日暮汉宫传蜡烛，",
     "儿童散学归来早，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_005",
    "grade": 3,
    "title": "望天门山",
    "author": "李白",
@@ -979,9 +1274,13 @@ window.POEM_BANK = {
     "李白",
     "陆游"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_005",
    "grade": 3,
    "title": "望天门山",
    "author": "李白",
@@ -994,9 +1293,13 @@ window.POEM_BANK = {
     "碧水东流至此回。",
     "朝辞白帝彩云间，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_006",
    "grade": 3,
    "title": "饮湖上初晴后雨",
    "author": "苏轼",
@@ -1009,9 +1312,13 @@ window.POEM_BANK = {
     "苏轼",
     "王绩"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_006",
    "grade": 3,
    "title": "饮湖上初晴后雨",
    "author": "苏轼",
@@ -1024,9 +1331,13 @@ window.POEM_BANK = {
     "淡妆浓抹总相宜。",
     "回乐烽前沙似雪，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_007",
    "grade": 3,
    "title": "望洞庭",
    "author": "刘禹锡",
@@ -1039,9 +1350,14 @@ window.POEM_BANK = {
     "林杰",
     "骆宾王"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_007",
    "grade": 3,
    "title": "望洞庭",
    "author": "刘禹锡",
@@ -1054,9 +1370,14 @@ window.POEM_BANK = {
     "总把新桃换旧符。",
     "譬如朝露，去日苦多。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_008",
    "grade": 3,
    "title": "早发白帝城",
    "author": "李白",
@@ -1069,9 +1390,13 @@ window.POEM_BANK = {
     "李白",
     "刘禹锡"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_008",
    "grade": 3,
    "title": "早发白帝城",
    "author": "李白",
@@ -1084,9 +1409,13 @@ window.POEM_BANK = {
     "满身雪白走将来。",
     "轻舟已过万重山。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_009",
    "grade": 3,
    "title": "采莲曲",
    "author": "王昌龄",
@@ -1099,9 +1428,13 @@ window.POEM_BANK = {
     "王昌龄",
     "韩愈"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_009",
    "grade": 3,
    "title": "采莲曲",
    "author": "王昌龄",
@@ -1114,9 +1447,13 @@ window.POEM_BANK = {
     "南朝四百八十寺，",
     "门泊东吴万里船。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_010",
    "grade": 3,
    "title": "绝句",
    "author": "杜甫",
@@ -1129,9 +1466,14 @@ window.POEM_BANK = {
     "江上秋风动客情。",
     "天门中断楚江开，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_011",
    "grade": 3,
    "title": "惠崇春江晚景",
    "author": "苏轼",
@@ -1144,9 +1486,13 @@ window.POEM_BANK = {
     "王维",
     "王冕"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g3_011",
    "grade": 3,
    "title": "惠崇春江晚景",
    "author": "苏轼",
@@ -1159,9 +1505,13 @@ window.POEM_BANK = {
     "胜日寻芳泗水滨，",
     "途中两狼，缀行甚远。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g3_012",
    "grade": 3,
    "title": "三衢道中",
    "author": "曾几",
@@ -1174,9 +1524,14 @@ window.POEM_BANK = {
     "王冕",
     "张岱"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_012",
    "grade": 3,
    "title": "三衢道中",
    "author": "曾几",
@@ -1189,9 +1544,14 @@ window.POEM_BANK = {
     "欲将轻骑逐，",
     "意欲捕鸣蝉，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_013",
    "grade": 3,
    "title": "忆江南",
    "author": "白居易",
@@ -1204,9 +1564,14 @@ window.POEM_BANK = {
     "卢梅坡",
     "袁枚"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_013",
    "grade": 3,
    "title": "忆江南",
    "author": "白居易",
@@ -1219,9 +1584,14 @@ window.POEM_BANK = {
     "时鸣春涧中。",
     "千磨万击还坚劲，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_014",
    "grade": 3,
    "title": "元日",
    "author": "王安石",
@@ -1234,9 +1604,14 @@ window.POEM_BANK = {
     "王昌龄",
     "李煜"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_014",
    "grade": 3,
    "title": "元日",
    "author": "王安石",
@@ -1249,9 +1624,14 @@ window.POEM_BANK = {
     "总把新桃换旧符。",
     "遥怜故园菊，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_015",
    "grade": 3,
    "title": "清明",
    "author": "杜牧",
@@ -1264,9 +1644,15 @@ window.POEM_BANK = {
     "岑参",
     "杜牧"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_015",
    "grade": 3,
    "title": "清明",
    "author": "杜牧",
@@ -1279,9 +1665,15 @@ window.POEM_BANK = {
     "路上行人欲断魂。",
     "沙暖睡鸳鸯。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_016",
    "grade": 3,
    "title": "九月九日忆山东兄弟",
    "author": "王维",
@@ -1294,9 +1686,14 @@ window.POEM_BANK = {
     "王安石",
     "张志和"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_016",
    "grade": 3,
    "title": "九月九日忆山东兄弟",
    "author": "王维",
@@ -1309,9 +1706,14 @@ window.POEM_BANK = {
     "墙角数枝梅，",
     "梅雪争春未肯降，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_017",
    "grade": 3,
    "title": "滁州西涧",
    "author": "韦应物",
@@ -1324,9 +1726,14 @@ window.POEM_BANK = {
     "卢梅坡",
     "王昌龄"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_017",
    "grade": 3,
    "title": "滁州西涧",
    "author": "韦应物",
@@ -1339,9 +1746,14 @@ window.POEM_BANK = {
     "白银盘里一青螺。",
     "野渡无人舟自横。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_018",
    "grade": 3,
    "title": "大林寺桃花",
    "author": "白居易",
@@ -1354,9 +1766,14 @@ window.POEM_BANK = {
     "李峤",
     "白居易"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_018",
    "grade": 3,
    "title": "大林寺桃花",
    "author": "白居易",
@@ -1369,9 +1786,14 @@ window.POEM_BANK = {
     "一片冰心在玉壶。",
     "千门万户曈曈日，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g4_001",
    "grade": 4,
    "title": "鹿柴",
    "author": "王维",
@@ -1384,9 +1806,13 @@ window.POEM_BANK = {
     "司马光",
     "雷震"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_001",
    "grade": 4,
    "title": "鹿柴",
    "author": "王维",
@@ -1399,9 +1825,13 @@ window.POEM_BANK = {
     "小桥流水人家，",
     "返景入深林，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_002",
    "grade": 4,
    "title": "暮江吟",
    "author": "白居易",
@@ -1414,9 +1844,14 @@ window.POEM_BANK = {
     "李绅",
     "高适"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "frontier",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_002",
    "grade": 4,
    "title": "暮江吟",
    "author": "白居易",
@@ -1429,9 +1864,14 @@ window.POEM_BANK = {
     "终古高云簇此城，",
     "水村山郭酒旗风。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "frontier",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_003",
    "grade": 4,
    "title": "题西林壁",
    "author": "苏轼",
@@ -1444,9 +1884,14 @@ window.POEM_BANK = {
     "庄子",
     "晏殊"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_003",
    "grade": 4,
    "title": "题西林壁",
    "author": "苏轼",
@@ -1459,9 +1904,14 @@ window.POEM_BANK = {
     "迟日江山丽，",
     "忽然闭口立。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_004",
    "grade": 4,
    "title": "雪梅",
    "author": "卢梅坡",
@@ -1474,9 +1924,15 @@ window.POEM_BANK = {
     "谭嗣同",
     "蒲松龄"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_004",
    "grade": 4,
    "title": "雪梅",
    "author": "卢梅坡",
@@ -1489,9 +1945,15 @@ window.POEM_BANK = {
     "梅须逊雪三分白，",
     "两岸猿声啼不住，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "winter",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_005",
    "grade": 4,
    "title": "嫦娥",
    "author": "李商隐",
@@ -1504,9 +1966,13 @@ window.POEM_BANK = {
     "李商隐",
     "蒲松龄"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_005",
    "grade": 4,
    "title": "嫦娥",
    "author": "李商隐",
@@ -1519,9 +1985,13 @@ window.POEM_BANK = {
     "死去元知万事空，",
     "不拘一格降人才。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_006",
    "grade": 4,
    "title": "出塞",
    "author": "王昌龄",
@@ -1534,9 +2004,14 @@ window.POEM_BANK = {
     "王昌龄",
     "杜甫"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g4_006",
    "grade": 4,
    "title": "出塞",
    "author": "王昌龄",
@@ -1549,9 +2024,14 @@ window.POEM_BANK = {
     "小时不识月，",
     "但使龙城飞将在，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g4_007",
    "grade": 4,
    "title": "凉州词",
    "author": "王翰",
@@ -1564,9 +2044,14 @@ window.POEM_BANK = {
     "李商隐",
     "姜夔"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g4_007",
    "grade": 4,
    "title": "凉州词",
    "author": "王翰",
@@ -1579,9 +2064,14 @@ window.POEM_BANK = {
     "古来征战几人回？",
     "散作满河星。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g4_008",
    "grade": 4,
    "title": "夏日绝句",
    "author": "李清照",
@@ -1594,9 +2084,13 @@ window.POEM_BANK = {
     "王建",
     "秦观"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_008",
    "grade": 4,
    "title": "夏日绝句",
    "author": "李清照",
@@ -1609,9 +2103,13 @@ window.POEM_BANK = {
     "不肯过江东。",
     "受降城外月如霜。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_009",
    "grade": 4,
    "title": "别董大",
    "author": "高适",
@@ -1624,9 +2122,15 @@ window.POEM_BANK = {
     "王建",
     "林嗣环"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_009",
    "grade": 4,
    "title": "别董大",
    "author": "高适",
@@ -1639,9 +2143,15 @@ window.POEM_BANK = {
     "牡丹，花之富贵者也；",
     "幸甚至哉，歌以咏志。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_010",
    "grade": 4,
    "title": "宿新市徐公店",
    "author": "杨万里",
@@ -1654,9 +2164,13 @@ window.POEM_BANK = {
     "魏学洢",
     "毛泽东"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_010",
    "grade": 4,
    "title": "宿新市徐公店",
    "author": "杨万里",
@@ -1669,9 +2183,13 @@ window.POEM_BANK = {
     "疑是地上霜。",
     "飞入菜花无处寻。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_011",
    "grade": 4,
    "title": "四时田园杂兴·其二十五",
    "author": "范成大",
@@ -1684,9 +2202,15 @@ window.POEM_BANK = {
     "荀子",
     "翁卷"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g4_011",
    "grade": 4,
    "title": "四时田园杂兴·其二十五",
    "author": "范成大",
@@ -1699,9 +2223,15 @@ window.POEM_BANK = {
     "江清月近人。",
     "死亦为鬼雄。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g4_012",
    "grade": 4,
    "title": "清平乐·村居",
    "author": "辛弃疾",
@@ -1714,9 +2244,13 @@ window.POEM_BANK = {
     "杨万里",
     "李峤"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_012",
    "grade": 4,
    "title": "清平乐·村居",
    "author": "辛弃疾",
@@ -1729,9 +2263,13 @@ window.POEM_BANK = {
     "主人下马客在船，举酒欲饮无管弦。",
     "醉里吴音相媚好，白发谁家翁媪？"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_013",
    "grade": 4,
    "title": "卜算子·咏梅",
    "author": "毛泽东",
@@ -1744,9 +2282,16 @@ window.POEM_BANK = {
     "王冕",
     "孟浩然"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g4_013",
    "grade": 4,
    "title": "卜算子·咏梅",
    "author": "毛泽东",
@@ -1759,9 +2304,16 @@ window.POEM_BANK = {
     "沧海月明珠有泪，蓝田日暖玉生烟。",
     "间关莺语花底滑，幽咽泉流冰下难。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g4_014",
    "grade": 4,
    "title": "蜂",
    "author": "罗隐",
@@ -1774,9 +2326,13 @@ window.POEM_BANK = {
     "罗隐",
     "王翰"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_014",
    "grade": 4,
    "title": "蜂",
    "author": "罗隐",
@@ -1789,9 +2345,13 @@ window.POEM_BANK = {
     "为谁辛苦为谁甜？",
     "家家乞巧望秋月，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_015",
    "grade": 4,
    "title": "独坐敬亭山",
    "author": "李白",
@@ -1804,9 +2364,14 @@ window.POEM_BANK = {
     "李绅",
     "李贺"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_015",
    "grade": 4,
    "title": "独坐敬亭山",
    "author": "李白",
@@ -1819,9 +2384,14 @@ window.POEM_BANK = {
     "相看两不厌，",
     "明月何时照我还。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_016",
    "grade": 4,
    "title": "芙蓉楼送辛渐",
    "author": "王昌龄",
@@ -1834,9 +2404,16 @@ window.POEM_BANK = {
     "纳兰性德",
     "王昌龄"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_016",
    "grade": 4,
    "title": "芙蓉楼送辛渐",
    "author": "王昌龄",
@@ -1849,9 +2426,16 @@ window.POEM_BANK = {
     "忧从中来，不可断绝。",
     "洛阳亲友如相问，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_017",
    "grade": 4,
    "title": "塞下曲",
    "author": "卢纶",
@@ -1864,9 +2448,15 @@ window.POEM_BANK = {
     "杨万里",
     "范成大"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_017",
    "grade": 4,
    "title": "塞下曲",
    "author": "卢纶",
@@ -1879,9 +2469,15 @@ window.POEM_BANK = {
     "梅须逊雪三分白，",
     "孤光一点萤。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_018",
    "grade": 4,
    "title": "墨梅",
    "author": "王冕",
@@ -1894,9 +2490,13 @@ window.POEM_BANK = {
     "张志和",
     "王绩"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g4_018",
    "grade": 4,
    "title": "墨梅",
    "author": "王冕",
@@ -1909,9 +2509,13 @@ window.POEM_BANK = {
     "晴空一鹤排云上，",
     "夜来风雨声，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g5_001",
    "grade": 5,
    "title": "乞巧",
    "author": "林杰",
@@ -1924,9 +2528,13 @@ window.POEM_BANK = {
     "王昌龄",
     "王冕"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_001",
    "grade": 5,
    "title": "乞巧",
    "author": "林杰",
@@ -1939,9 +2547,13 @@ window.POEM_BANK = {
     "清风徐来，水波不兴。",
     "周公吐哺，天下归心。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_002",
    "grade": 5,
    "title": "示儿",
    "author": "陆游",
@@ -1954,9 +2566,13 @@ window.POEM_BANK = {
     "司马光",
     "李清照"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_002",
    "grade": 5,
    "title": "示儿",
    "author": "陆游",
@@ -1969,9 +2585,13 @@ window.POEM_BANK = {
     "孤光一点萤。",
     "汗滴禾下土。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_003",
    "grade": 5,
    "title": "题临安邸",
    "author": "林升",
@@ -1984,9 +2604,13 @@ window.POEM_BANK = {
     "李清照",
     "林升"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_003",
    "grade": 5,
    "title": "题临安邸",
    "author": "林升",
@@ -1999,9 +2623,13 @@ window.POEM_BANK = {
     "山不在高，有仙则名。",
     "我有嘉宾，鼓瑟吹笙。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_004",
    "grade": 5,
    "title": "己亥杂诗",
    "author": "龚自珍",
@@ -2014,9 +2642,14 @@ window.POEM_BANK = {
     "卢梅坡",
     "贾岛"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "farewell",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_004",
    "grade": 5,
    "title": "己亥杂诗",
    "author": "龚自珍",
@@ -2029,9 +2662,14 @@ window.POEM_BANK = {
     "为有源头活水来。",
     "何以解忧？唯有杜康。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "farewell",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_005",
    "grade": 5,
    "title": "山居秋暝",
    "author": "王维",
@@ -2044,9 +2682,15 @@ window.POEM_BANK = {
     "屈原",
     "王维"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_005",
    "grade": 5,
    "title": "山居秋暝",
    "author": "王维",
@@ -2059,9 +2703,15 @@ window.POEM_BANK = {
     "随意春芳歇，王孙自可留。",
     "问君何能尔？心远地自偏。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_006",
    "grade": 5,
    "title": "枫桥夜泊",
    "author": "张继",
@@ -2074,9 +2724,16 @@ window.POEM_BANK = {
     "韩愈",
     "岑参"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_006",
    "grade": 5,
    "title": "枫桥夜泊",
    "author": "张继",
@@ -2089,9 +2746,16 @@ window.POEM_BANK = {
     "白毛浮绿水，",
     "夜发清溪向三峡，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_007",
    "grade": 5,
    "title": "长相思",
    "author": "纳兰性德",
@@ -2104,9 +2768,15 @@ window.POEM_BANK = {
     "李益",
     "高鼎"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_007",
    "grade": 5,
    "title": "长相思",
    "author": "纳兰性德",
@@ -2119,9 +2789,15 @@ window.POEM_BANK = {
     "身向榆关那畔行，夜深千帐灯。",
     "脚著谢公屐，身登青云梯。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_008",
    "grade": 5,
    "title": "渔歌子",
    "author": "张志和",
@@ -2134,9 +2810,15 @@ window.POEM_BANK = {
     "晏殊",
     "张志和"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_008",
    "grade": 5,
    "title": "渔歌子",
    "author": "张志和",
@@ -2149,9 +2831,15 @@ window.POEM_BANK = {
     "桃花流水鳜鱼肥。",
     "遗民泪尽胡尘里，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_009",
    "grade": 5,
    "title": "观书有感·其一",
    "author": "朱熹",
@@ -2164,9 +2852,13 @@ window.POEM_BANK = {
     "朱熹",
     "贺知章"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_009",
    "grade": 5,
    "title": "观书有感·其一",
    "author": "朱熹",
@@ -2179,9 +2871,13 @@ window.POEM_BANK = {
     "采得百花成蜜后，",
     "孤城遥望玉门关。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_010",
    "grade": 5,
    "title": "观书有感·其二",
    "author": "朱熹",
@@ -2194,9 +2890,14 @@ window.POEM_BANK = {
     "蒲松龄",
     "杜牧"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_010",
    "grade": 5,
    "title": "观书有感·其二",
    "author": "朱熹",
@@ -2209,9 +2910,14 @@ window.POEM_BANK = {
     "云母屏风烛影深，",
     "蒙冲巨舰一毛轻。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_011",
    "grade": 5,
    "title": "四时田园杂兴·其三十一",
    "author": "范成大",
@@ -2224,9 +2930,13 @@ window.POEM_BANK = {
     "贾岛",
     "李峤"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_011",
    "grade": 5,
    "title": "四时田园杂兴·其三十一",
    "author": "范成大",
@@ -2239,9 +2949,13 @@ window.POEM_BANK = {
     "万条垂下绿丝绦。",
     "村庄儿女各当家。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_012",
    "grade": 5,
    "title": "稚子弄冰",
    "author": "杨万里",
@@ -2254,9 +2968,13 @@ window.POEM_BANK = {
     "谭嗣同",
     "王冕"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g5_012",
    "grade": 5,
    "title": "稚子弄冰",
    "author": "杨万里",
@@ -2269,9 +2987,13 @@ window.POEM_BANK = {
     "更上一层楼。",
     "敲成玉磬穿林响，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g5_013",
    "grade": 5,
    "title": "村晚",
    "author": "雷震",
@@ -2284,9 +3006,14 @@ window.POEM_BANK = {
     "雷震",
     "林升"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_013",
    "grade": 5,
    "title": "村晚",
    "author": "雷震",
@@ -2299,9 +3026,14 @@ window.POEM_BANK = {
     "不知何处吹芦管，",
     "也傍桑阴学种瓜。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_014",
    "grade": 5,
    "title": "鸟鸣涧",
    "author": "王维",
@@ -2314,9 +3046,14 @@ window.POEM_BANK = {
     "胡令能",
     "魏学洢"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_014",
    "grade": 5,
    "title": "鸟鸣涧",
    "author": "王维",
@@ -2329,9 +3066,14 @@ window.POEM_BANK = {
     "日出江花红胜火，",
     "飞入菜花无处寻。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_015",
    "grade": 5,
    "title": "从军行",
    "author": "王昌龄",
@@ -2344,9 +3086,15 @@ window.POEM_BANK = {
     "李商隐",
     "李白"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_015",
    "grade": 5,
    "title": "从军行",
    "author": "王昌龄",
@@ -2359,9 +3107,15 @@ window.POEM_BANK = {
     "黄沙百战穿金甲，",
     "月出惊山鸟，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_016",
    "grade": 5,
    "title": "送元二使安西",
    "author": "王维",
@@ -2374,9 +3128,15 @@ window.POEM_BANK = {
     "诸葛亮",
     "王维"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_016",
    "grade": 5,
    "title": "送元二使安西",
    "author": "王维",
@@ -2389,9 +3149,15 @@ window.POEM_BANK = {
     "乱入池中看不见，",
     "客舍青青柳色新。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_017",
    "grade": 5,
    "title": "秋夜将晓出篱门迎凉有感",
    "author": "陆游",
@@ -2404,9 +3170,16 @@ window.POEM_BANK = {
     "查慎行",
     "姜夔"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_017",
    "grade": 5,
    "title": "秋夜将晓出篱门迎凉有感",
    "author": "陆游",
@@ -2419,9 +3192,16 @@ window.POEM_BANK = {
     "余强饮三大白而别。",
     "南望王师又一年。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_018",
    "grade": 5,
    "title": "凉州词",
    "author": "王之涣",
@@ -2434,9 +3214,14 @@ window.POEM_BANK = {
     "千磨万击还坚劲，",
     "春风不度玉门关。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_019",
    "grade": 5,
    "title": "黄鹤楼送孟浩然之广陵",
    "author": "李白",
@@ -2449,9 +3234,13 @@ window.POEM_BANK = {
     "朱熹",
     "李白"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "farewell"
+   ]
   },
   {
+   "pid": "g5_019",
    "grade": 5,
    "title": "黄鹤楼送孟浩然之广陵",
    "author": "李白",
@@ -2464,9 +3253,13 @@ window.POEM_BANK = {
     "烟花三月下扬州。",
     "山不厌高，海不厌深。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "farewell"
+   ]
   },
   {
+   "pid": "g5_020",
    "grade": 5,
    "title": "乡村四月",
    "author": "翁卷",
@@ -2479,9 +3272,14 @@ window.POEM_BANK = {
     "翁卷",
     "王建"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_020",
    "grade": 5,
    "title": "乡村四月",
    "author": "翁卷",
@@ -2494,9 +3292,14 @@ window.POEM_BANK = {
     "子规声里雨如烟。",
     "不知秋思落谁家。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_001",
    "grade": 6,
    "title": "宿建德江",
    "author": "孟浩然",
@@ -2509,9 +3312,13 @@ window.POEM_BANK = {
     "王应麟",
     "崔颢"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_001",
    "grade": 6,
    "title": "宿建德江",
    "author": "孟浩然",
@@ -2524,9 +3331,13 @@ window.POEM_BANK = {
     "日暮客愁新。",
     "过江千尺浪，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_002",
    "grade": 6,
    "title": "六月二十七日望湖楼醉书",
    "author": "苏轼",
@@ -2539,9 +3350,13 @@ window.POEM_BANK = {
     "高适",
     "龚自珍"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_002",
    "grade": 6,
    "title": "六月二十七日望湖楼醉书",
    "author": "苏轼",
@@ -2554,9 +3369,13 @@ window.POEM_BANK = {
     "白雨跳珠乱入船。",
     "冷露无声湿桂花。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_003",
    "grade": 6,
    "title": "西江月·夜行黄沙道中",
    "author": "辛弃疾",
@@ -2569,9 +3388,14 @@ window.POEM_BANK = {
     "龚自珍",
     "雷震"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_003",
    "grade": 6,
    "title": "西江月·夜行黄沙道中",
    "author": "辛弃疾",
@@ -2584,9 +3408,14 @@ window.POEM_BANK = {
     "谢公宿处今尚在，渌水荡漾清猿啼。",
     "七八个星天外，两三点雨山前。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_004",
    "grade": 6,
    "title": "过故人庄",
    "author": "孟浩然",
@@ -2599,9 +3428,15 @@ window.POEM_BANK = {
     "骆宾王",
     "孟浩然"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_004",
    "grade": 6,
    "title": "过故人庄",
    "author": "孟浩然",
@@ -2614,9 +3449,15 @@ window.POEM_BANK = {
     "孤常读书，自以为大有所益。」",
     "征蓬出汉塞，归雁入胡天。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_005",
    "grade": 6,
    "title": "七律·长征",
    "author": "毛泽东",
@@ -2629,9 +3470,15 @@ window.POEM_BANK = {
     "王之涣",
     "毛泽东"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g6_005",
    "grade": 6,
    "title": "七律·长征",
    "author": "毛泽东",
@@ -2644,9 +3491,15 @@ window.POEM_BANK = {
     "巴山楚水凄凉地，二十三年弃置身。",
     "五岭逶迤腾细浪，乌蒙磅礴走泥丸。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g6_006",
    "grade": 6,
    "title": "春日",
    "author": "朱熹",
@@ -2659,9 +3512,13 @@ window.POEM_BANK = {
     "庄子",
     "朱熹"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_006",
    "grade": 6,
    "title": "春日",
    "author": "朱熹",
@@ -2674,9 +3531,13 @@ window.POEM_BANK = {
     "江枫渔火对愁眠。",
     "万紫千红总是春。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_007",
    "grade": 6,
    "title": "回乡偶书",
    "author": "贺知章",
@@ -2689,9 +3550,14 @@ window.POEM_BANK = {
     "贺知章",
     "崔颢"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_007",
    "grade": 6,
    "title": "回乡偶书",
    "author": "贺知章",
@@ -2704,9 +3570,14 @@ window.POEM_BANK = {
     "儿童相见不相识，",
     "梅子黄时日日晴，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_008",
    "grade": 6,
    "title": "浪淘沙",
    "author": "刘禹锡",
@@ -2719,9 +3590,11 @@ window.POEM_BANK = {
     "王昌龄",
     "王绩"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": []
   },
   {
+   "pid": "g6_008",
    "grade": 6,
    "title": "浪淘沙",
    "author": "刘禹锡",
@@ -2734,9 +3607,11 @@ window.POEM_BANK = {
     "岐王宅里寻常见，",
     "如今直上银河去，"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": []
   },
   {
+   "pid": "g6_009",
    "grade": 6,
    "title": "江南春",
    "author": "杜牧",
@@ -2749,9 +3624,16 @@ window.POEM_BANK = {
     "杜牧",
     "贾谊"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_009",
    "grade": 6,
    "title": "江南春",
    "author": "杜牧",
@@ -2764,9 +3646,16 @@ window.POEM_BANK = {
     "晴空一鹤排云上，",
     "洛阳亲友如相问，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_010",
    "grade": 6,
    "title": "书湖阴先生壁",
    "author": "王安石",
@@ -2779,9 +3668,14 @@ window.POEM_BANK = {
     "叶绍翁",
     "王湾"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_010",
    "grade": 6,
    "title": "书湖阴先生壁",
    "author": "王安石",
@@ -2794,9 +3688,14 @@ window.POEM_BANK = {
     "环滁皆山也。",
     "花木成畦手自栽。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_011",
    "grade": 6,
    "title": "寒食",
    "author": "韩翃",
@@ -2809,9 +3708,14 @@ window.POEM_BANK = {
     "李绅",
     "秦观"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter"
+   ]
   },
   {
+   "pid": "g6_011",
    "grade": 6,
    "title": "寒食",
    "author": "韩翃",
@@ -2824,9 +3728,14 @@ window.POEM_BANK = {
     "天街小雨润如酥，",
     "青箬笠，绿蓑衣，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter"
+   ]
   },
   {
+   "pid": "g6_012",
    "grade": 6,
    "title": "迢迢牵牛星",
    "author": "佚名",
@@ -2839,9 +3748,11 @@ window.POEM_BANK = {
     "纳兰性德",
     "马致远"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": []
   },
   {
+   "pid": "g6_012",
    "grade": 6,
    "title": "迢迢牵牛星",
    "author": "佚名",
@@ -2854,9 +3765,11 @@ window.POEM_BANK = {
     "终日不成章，泣涕零如雨。",
     "蜀道之难，难于上青天！"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g6_013",
    "grade": 6,
    "title": "十五夜望月",
    "author": "王建",
@@ -2869,9 +3782,14 @@ window.POEM_BANK = {
     "王建",
     "唐寅"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_013",
    "grade": 6,
    "title": "十五夜望月",
    "author": "王建",
@@ -2884,9 +3802,14 @@ window.POEM_BANK = {
     "不知秋思落谁家。",
     "碧海青天夜夜心。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_014",
    "grade": 6,
    "title": "长歌行",
    "author": "汉乐府",
@@ -2899,9 +3822,16 @@ window.POEM_BANK = {
     "范成大",
     "汉乐府"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_014",
    "grade": 6,
    "title": "长歌行",
    "author": "汉乐府",
@@ -2914,9 +3844,16 @@ window.POEM_BANK = {
     "百啭无人能解，因风飞过蔷薇。",
     "月下飞天镜，云生结海楼。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature",
+    "autumn",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_015",
    "grade": 6,
    "title": "马诗",
    "author": "李贺",
@@ -2929,9 +3866,17 @@ window.POEM_BANK = {
     "马致远",
     "王湾"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_015",
    "grade": 6,
    "title": "马诗",
    "author": "李贺",
@@ -2944,9 +3889,17 @@ window.POEM_BANK = {
     "二月春风似剪刀。",
     "应怜屐齿印苍苔，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_016",
    "grade": 6,
    "title": "石灰吟",
    "author": "于谦",
@@ -2959,9 +3912,14 @@ window.POEM_BANK = {
     "于谦",
     "苏轼"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_016",
    "grade": 6,
    "title": "石灰吟",
    "author": "于谦",
@@ -2974,9 +3932,14 @@ window.POEM_BANK = {
     "烟花三月下扬州。",
     "接天莲叶无穷碧，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_017",
    "grade": 6,
    "title": "竹石",
    "author": "郑燮",
@@ -2989,9 +3952,14 @@ window.POEM_BANK = {
     "范成大",
     "郑燮"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_017",
    "grade": 6,
    "title": "竹石",
    "author": "郑燮",
@@ -3004,9 +3972,14 @@ window.POEM_BANK = {
     "只缘身在此山中。",
     "立根原在破岩中。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_018",
    "grade": 6,
    "title": "采薇",
    "author": "佚名",
@@ -3019,9 +3992,15 @@ window.POEM_BANK = {
     "卢梅坡",
     "王维"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_018",
    "grade": 6,
    "title": "采薇",
    "author": "佚名",
@@ -3034,9 +4013,15 @@ window.POEM_BANK = {
     "今我来思，雨雪霏霏。",
     "爆竹声中一岁除，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_019",
    "grade": 6,
    "title": "春夜喜雨",
    "author": "杜甫",
@@ -3049,9 +4034,14 @@ window.POEM_BANK = {
     "纳兰性德",
     "杜甫"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_019",
    "grade": 6,
    "title": "春夜喜雨",
    "author": "杜甫",
@@ -3064,9 +4054,14 @@ window.POEM_BANK = {
     "野径云俱黑，江船火独明。",
     "风雨送春归，飞雪迎春到。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_020",
    "grade": 6,
    "title": "闻官军收河南河北",
    "author": "杜甫",
@@ -3079,9 +4074,17 @@ window.POEM_BANK = {
     "马致远",
     "王之涣"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "frontier",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g6_020",
    "grade": 6,
    "title": "闻官军收河南河北",
    "author": "杜甫",
@@ -3094,9 +4097,17 @@ window.POEM_BANK = {
     "欲寄彩笺兼尺素，山长水阔知何处？",
     "白日放歌须纵酒，青春作伴好还乡。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "frontier",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g6_021",
    "grade": 6,
    "title": "早春呈水部张十八员外",
    "author": "韩愈",
@@ -3109,9 +4120,13 @@ window.POEM_BANK = {
     "韩愈",
     "屈原"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_021",
    "grade": 6,
    "title": "早春呈水部张十八员外",
    "author": "韩愈",
@@ -3124,9 +4139,13 @@ window.POEM_BANK = {
     "孤云独去闲。",
     "月明星稀，乌鹊南飞。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_023",
    "grade": 6,
    "title": "泊船瓜洲",
    "author": "王安石",
@@ -3139,9 +4158,14 @@ window.POEM_BANK = {
     "王安石",
     "刘禹锡"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g6_023",
    "grade": 6,
    "title": "泊船瓜洲",
    "author": "王安石",
@@ -3154,9 +4178,14 @@ window.POEM_BANK = {
     "迟日江山丽，",
     "钟山只隔数重山。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g6_024",
    "grade": 6,
    "title": "游园不值",
    "author": "叶绍翁",
@@ -3169,9 +4198,15 @@ window.POEM_BANK = {
     "蒲松龄",
     "晏殊"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_024",
    "grade": 6,
    "title": "游园不值",
    "author": "叶绍翁",
@@ -3184,9 +4219,15 @@ window.POEM_BANK = {
     "春色满园关不住，",
     "西湖歌舞几时休？"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_025",
    "grade": 6,
    "title": "卜算子·送鲍浩然之浙东",
    "author": "王观",
@@ -3199,9 +4240,15 @@ window.POEM_BANK = {
     "王观",
     "张继"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_025",
    "grade": 6,
    "title": "卜算子·送鲍浩然之浙东",
    "author": "王观",
@@ -3214,9 +4261,15 @@ window.POEM_BANK = {
     "千古江山，英雄无觅孙仲谋处。",
     "莲之爱，同予者何人？"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_026",
    "grade": 6,
    "title": "浣溪沙",
    "author": "苏轼",
@@ -3229,9 +4282,14 @@ window.POEM_BANK = {
     "岑参",
     "王维"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_026",
    "grade": 6,
    "title": "浣溪沙",
    "author": "苏轼",
@@ -3244,9 +4302,14 @@ window.POEM_BANK = {
     "谁道人生无再少？门前流水尚能西！",
     "乱花渐欲迷人眼，浅草才能没马蹄。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_027",
    "grade": 6,
    "title": "清平乐",
    "author": "黄庭坚",
@@ -3259,9 +4322,13 @@ window.POEM_BANK = {
     "查慎行",
     "胡令能"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_027",
    "grade": 6,
    "title": "清平乐",
    "author": "黄庭坚",
@@ -3274,9 +4341,13 @@ window.POEM_BANK = {
     "雕栏玉砌应犹在，只是朱颜改。",
     "空山新雨后，天气晚来秋。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g7_001",
    "grade": 7,
    "title": "观沧海",
    "author": "曹操",
@@ -3289,9 +4360,14 @@ window.POEM_BANK = {
     "雷震",
     "曾几"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_001",
    "grade": 7,
    "title": "观沧海",
    "author": "曹操",
@@ -3304,9 +4380,14 @@ window.POEM_BANK = {
     "春风不度玉门关。",
     "清明时节雨纷纷，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_002",
    "grade": 7,
    "title": "闻王昌龄左迁龙标遥有此寄",
    "author": "李白",
@@ -3319,9 +4400,13 @@ window.POEM_BANK = {
     "蒲松龄",
     "李白"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g7_002",
    "grade": 7,
    "title": "闻王昌龄左迁龙标遥有此寄",
    "author": "李白",
@@ -3334,9 +4419,13 @@ window.POEM_BANK = {
     "秋风萧瑟，洪波涌起。",
     "大雪满弓刀。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g7_003",
    "grade": 7,
    "title": "次北固山下",
    "author": "王湾",
@@ -3349,9 +4438,16 @@ window.POEM_BANK = {
     "范仲淹",
     "李峤"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_003",
    "grade": 7,
    "title": "次北固山下",
    "author": "王湾",
@@ -3364,9 +4460,16 @@ window.POEM_BANK = {
     "骊山北构而西折，直走咸阳。",
     "七八个星天外，两三点雨山前。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_004",
    "grade": 7,
    "title": "天净沙·秋思",
    "author": "马致远",
@@ -3379,9 +4482,14 @@ window.POEM_BANK = {
     "马致远",
     "杜甫"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_004",
    "grade": 7,
    "title": "天净沙·秋思",
    "author": "马致远",
@@ -3394,9 +4502,14 @@ window.POEM_BANK = {
     "松下问童子，",
     "离离原上草，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_005",
    "grade": 7,
    "title": "峨眉山月歌",
    "author": "李白",
@@ -3409,9 +4522,15 @@ window.POEM_BANK = {
     "李白",
     "庄子"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_005",
    "grade": 7,
    "title": "峨眉山月歌",
    "author": "李白",
@@ -3424,9 +4543,15 @@ window.POEM_BANK = {
     "但为君故，沉吟至今。",
     "遥怜故园菊，"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_006",
    "grade": 7,
    "title": "江南逢李龟年",
    "author": "杜甫",
@@ -3439,9 +4564,11 @@ window.POEM_BANK = {
     "韩翃",
     "崔颢"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": []
   },
   {
+   "pid": "g7_006",
    "grade": 7,
    "title": "江南逢李龟年",
    "author": "杜甫",
@@ -3454,9 +4581,11 @@ window.POEM_BANK = {
     "可以调素琴，阅金经。",
     "周公吐哺，天下归心。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": []
   },
   {
+   "pid": "g7_007",
    "grade": 7,
    "title": "行军九日思长安故园",
    "author": "岑参",
@@ -3469,9 +4598,17 @@ window.POEM_BANK = {
     "王昌龄",
     "王之涣"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_007",
    "grade": 7,
    "title": "行军九日思长安故园",
    "author": "岑参",
@@ -3484,9 +4621,17 @@ window.POEM_BANK = {
     "遥怜故园菊，",
     "无边光景一时新。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_008",
    "grade": 7,
    "title": "夜上受降城闻笛",
    "author": "李益",
@@ -3499,9 +4644,16 @@ window.POEM_BANK = {
     "司马光",
     "李益"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "frontier",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_008",
    "grade": 7,
    "title": "夜上受降城闻笛",
    "author": "李益",
@@ -3514,9 +4666,16 @@ window.POEM_BANK = {
     "夜发清溪向三峡，",
     "怕得鱼惊不应人。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "frontier",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_009",
    "grade": 7,
    "title": "秋词",
    "author": "刘禹锡",
@@ -3529,9 +4688,14 @@ window.POEM_BANK = {
     "刘禹锡",
     "蒲松龄"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_009",
    "grade": 7,
    "title": "秋词",
    "author": "刘禹锡",
@@ -3544,9 +4708,14 @@ window.POEM_BANK = {
     "青箬笠，绿蓑衣，",
     "拂堤杨柳醉春烟。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_010",
    "grade": 7,
    "title": "夜雨寄北",
    "author": "李商隐",
@@ -3559,9 +4728,14 @@ window.POEM_BANK = {
     "李商隐",
     "韩翃"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_010",
    "grade": 7,
    "title": "夜雨寄北",
    "author": "李商隐",
@@ -3574,9 +4748,14 @@ window.POEM_BANK = {
     "各抱地势，钩心斗角。",
     "巴山夜雨涨秋池。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_011",
    "grade": 7,
    "title": "十一月四日风雨大作",
    "author": "陆游",
@@ -3589,9 +4768,17 @@ window.POEM_BANK = {
     "杨万里",
     "陆游"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g7_011",
    "grade": 7,
    "title": "十一月四日风雨大作",
    "author": "陆游",
@@ -3604,9 +4791,17 @@ window.POEM_BANK = {
     "铁马冰河入梦来。",
     "快走踏清秋。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g7_012",
    "grade": 7,
    "title": "潼关",
    "author": "谭嗣同",
@@ -3619,9 +4814,14 @@ window.POEM_BANK = {
     "李益",
     "谭嗣同"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_012",
    "grade": 7,
    "title": "潼关",
    "author": "谭嗣同",
@@ -3634,9 +4834,14 @@ window.POEM_BANK = {
     "河流大野犹嫌束，",
     "莫愁前路无知己，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_001",
    "grade": 8,
    "title": "野望",
    "author": "王绩",
@@ -3649,9 +4854,14 @@ window.POEM_BANK = {
     "李绅",
     "王绩"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_001",
    "grade": 8,
    "title": "野望",
    "author": "王绩",
@@ -3664,9 +4874,14 @@ window.POEM_BANK = {
     "明月别枝惊鹊，清风半夜鸣蝉。",
     "牧人驱犊返，猎马带禽归。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_002",
    "grade": 8,
    "title": "黄鹤楼",
    "author": "崔颢",
@@ -3679,9 +4894,15 @@ window.POEM_BANK = {
     "高适",
     "崔颢"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g8_002",
    "grade": 8,
    "title": "黄鹤楼",
    "author": "崔颢",
@@ -3694,9 +4915,15 @@ window.POEM_BANK = {
     "半卷红旗临易水，霜重鼓寒声不起。",
     "风急天高猿啸哀，渚清沙白鸟飞回。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g8_003",
    "grade": 8,
    "title": "使至塞上",
    "author": "王维",
@@ -3709,9 +4936,16 @@ window.POEM_BANK = {
     "翁卷",
     "李商隐"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_003",
    "grade": 8,
    "title": "使至塞上",
    "author": "王维",
@@ -3724,9 +4958,16 @@ window.POEM_BANK = {
     "杜郎俊赏，算而今重到须惊。",
     "百川东到海，何时复西归？"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_004",
    "grade": 8,
    "title": "渡荆门送别",
    "author": "李白",
@@ -3739,9 +4980,16 @@ window.POEM_BANK = {
     "李白",
     "李贺"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_004",
    "grade": 8,
    "title": "渡荆门送别",
    "author": "李白",
@@ -3754,9 +5002,16 @@ window.POEM_BANK = {
     "师者，所以传道受业解惑也。",
     "空山新雨后，天气晚来秋。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_005",
    "grade": 8,
    "title": "钱塘湖春行",
    "author": "白居易",
@@ -3769,9 +5024,14 @@ window.POEM_BANK = {
     "纳兰性德",
     "李清照"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g8_005",
    "grade": 8,
    "title": "钱塘湖春行",
    "author": "白居易",
@@ -3784,9 +5044,14 @@ window.POEM_BANK = {
     "乱花渐欲迷人眼，浅草才能没马蹄。",
     "飞湍瀑流争喧豗，砯崖转石万壑雷。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g8_006",
    "grade": 8,
    "title": "饮酒·其五",
    "author": "陶渊明",
@@ -3799,9 +5064,15 @@ window.POEM_BANK = {
     "陶渊明",
     "王安石"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_006",
    "grade": 8,
    "title": "饮酒·其五",
    "author": "陶渊明",
@@ -3814,9 +5085,15 @@ window.POEM_BANK = {
     "雕栏玉砌应犹在，只是朱颜改。",
     "晋太元中，武陵人捕鱼为业。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_007",
    "grade": 8,
    "title": "春望",
    "author": "杜甫",
@@ -3829,9 +5106,18 @@ window.POEM_BANK = {
     "李益",
     "杜甫"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_007",
    "grade": 8,
    "title": "春望",
    "author": "杜甫",
@@ -3844,9 +5130,18 @@ window.POEM_BANK = {
     "感时花溅泪，恨别鸟惊心。",
     "春花秋月何时了？往事知多少。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_008",
    "grade": 8,
    "title": "雁门太守行",
    "author": "李贺",
@@ -3859,9 +5154,16 @@ window.POEM_BANK = {
     "荀子",
     "李贺"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "winter",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_008",
    "grade": 8,
    "title": "雁门太守行",
    "author": "李贺",
@@ -3874,9 +5176,16 @@ window.POEM_BANK = {
     "见其发矢十中八九，但微颔之。",
     "半卷红旗临易水，霜重鼓寒声不起。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "winter",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_009",
    "grade": 8,
    "title": "赤壁",
    "author": "杜牧",
@@ -3889,9 +5198,13 @@ window.POEM_BANK = {
     "沈复",
     "李白"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g8_009",
    "grade": 8,
    "title": "赤壁",
    "author": "杜牧",
@@ -3904,9 +5217,13 @@ window.POEM_BANK = {
     "应傍战场开。",
     "烟花三月下扬州。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g8_010",
    "grade": 8,
    "title": "渔家傲",
    "author": "李清照",
@@ -3919,9 +5236,13 @@ window.POEM_BANK = {
     "李清照",
     "柳宗元"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g8_010",
    "grade": 8,
    "title": "渔家傲",
    "author": "李清照",
@@ -3934,9 +5255,13 @@ window.POEM_BANK = {
     "树绕村庄，水满陂塘。倚东风，豪兴徜徉。",
     "朝避猛虎，夕避长蛇；磨牙吮血，杀人如麻。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g9_001",
    "grade": 9,
    "title": "行路难·其一",
    "author": "李白",
@@ -3949,9 +5274,16 @@ window.POEM_BANK = {
     "王绩",
     "李贺"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g9_001",
    "grade": 9,
    "title": "行路难·其一",
    "author": "李白",
@@ -3964,9 +5296,16 @@ window.POEM_BANK = {
     "黄鹤一去不复返，白云千载空悠悠。",
     "欲渡黄河冰塞川，将登太行雪满山。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g9_002",
    "grade": 9,
    "title": "酬乐天扬州初逢席上见赠",
    "author": "刘禹锡",
@@ -3979,9 +5318,16 @@ window.POEM_BANK = {
     "毛泽东",
     "刘禹锡"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g9_002",
    "grade": 9,
    "title": "酬乐天扬州初逢席上见赠",
    "author": "刘禹锡",
@@ -3994,9 +5340,16 @@ window.POEM_BANK = {
     "旧时茅店社林边，路转溪桥忽见。",
     "春花秋月何时了？往事知多少。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g9_003",
    "grade": 9,
    "title": "水调歌头",
    "author": "苏轼",
@@ -4009,9 +5362,14 @@ window.POEM_BANK = {
     "卢纶",
     "张岱"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "farewell"
+   ]
   },
   {
+   "pid": "g9_003",
    "grade": 9,
    "title": "水调歌头",
    "author": "苏轼",
@@ -4024,9 +5382,14 @@ window.POEM_BANK = {
     "冰，水为之，而寒于水。",
     "江南好，风景旧曾谙。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "farewell"
+   ]
   },
   {
+   "pid": "g9_004",
    "grade": 9,
    "title": "无题",
    "author": "李商隐",
@@ -4039,9 +5402,17 @@ window.POEM_BANK = {
     "韩愈",
     "范成大"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell",
+    "patriot"
+   ]
   },
   {
+   "pid": "g9_004",
    "grade": 9,
    "title": "无题",
    "author": "李商隐",
@@ -4054,9 +5425,17 @@ window.POEM_BANK = {
     "聒碎乡心梦不成，故园无此声。",
     "蓬山此去无多路，青鸟殷勤为探看。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell",
+    "patriot"
+   ]
   },
   {
+   "pid": "g9_005",
    "grade": 9,
    "title": "行香子",
    "author": "秦观",
@@ -4069,9 +5448,15 @@ window.POEM_BANK = {
     "杜牧",
     "秦观"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g9_005",
    "grade": 9,
    "title": "行香子",
    "author": "秦观",
@@ -4084,9 +5469,15 @@ window.POEM_BANK = {
     "远远围墙，隐隐茅堂。飏青旗，流水桥旁。",
     "上有六龙回日之高标，下有冲波逆折之回川。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g9_006",
    "grade": 9,
    "title": "丑奴儿·书博山道中壁",
    "author": "辛弃疾",
@@ -4099,9 +5490,14 @@ window.POEM_BANK = {
     "陶渊明",
     "王翰"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g9_006",
    "grade": 9,
    "title": "丑奴儿·书博山道中壁",
    "author": "辛弃疾",
@@ -4114,9 +5510,14 @@ window.POEM_BANK = {
     "而今识尽愁滋味，欲说还休。欲说还休，却道「天凉好个秋」！",
     "全石以为底，近岸，卷石底以出，为坻，为屿，为嵁，为岩。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_001",
    "grade": 10,
    "title": "沁园春·长沙",
    "author": "毛泽东",
@@ -4129,9 +5530,17 @@ window.POEM_BANK = {
     "李益",
     "袁枚"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_001",
    "grade": 10,
    "title": "沁园春·长沙",
    "author": "毛泽东",
@@ -4144,9 +5553,17 @@ window.POEM_BANK = {
     "见余大喜曰：「湖中焉得更有此人！」",
     "旁开小窗，左右各四，共八扇。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_002",
    "grade": 10,
    "title": "短歌行",
    "author": "曹操",
@@ -4159,9 +5576,16 @@ window.POEM_BANK = {
     "李清照",
     "纳兰性德"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g10_002",
    "grade": 10,
    "title": "短歌行",
    "author": "曹操",
@@ -4174,9 +5598,16 @@ window.POEM_BANK = {
     "绝胜烟柳满皇都。",
     "桃花潭水深千尺，"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g10_003",
    "grade": 10,
    "title": "梦游天姥吟留别",
    "author": "李白",
@@ -4189,9 +5620,15 @@ window.POEM_BANK = {
     "纳兰性德",
     "李白"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g10_003",
    "grade": 10,
    "title": "梦游天姥吟留别",
    "author": "李白",
@@ -4204,9 +5641,15 @@ window.POEM_BANK = {
     "孤山寺北贾亭西，水面初平云脚低。",
     "天台四万八千丈，对此欲倒东南倾。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g10_004",
    "grade": 10,
    "title": "登高",
    "author": "杜甫",
@@ -4219,9 +5662,16 @@ window.POEM_BANK = {
     "晏殊",
     "杜甫"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_004",
    "grade": 10,
    "title": "登高",
    "author": "杜甫",
@@ -4234,9 +5684,16 @@ window.POEM_BANK = {
     "沉吟放拨插弦中，整顿衣裳起敛容。",
     "万里悲秋常作客，百年多病独登台。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_005",
    "grade": 10,
    "title": "念奴娇·赤壁怀古",
    "author": "苏轼",
@@ -4249,9 +5706,15 @@ window.POEM_BANK = {
     "辛弃疾",
     "胡令能"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "patriot"
+   ]
   },
   {
+   "pid": "g10_005",
    "grade": 10,
    "title": "念奴娇·赤壁怀古",
    "author": "苏轼",
@@ -4264,9 +5727,15 @@ window.POEM_BANK = {
     "水是眼波横，山是眉峰聚。",
     "大儿锄豆溪东，中儿正织鸡笼。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "patriot"
+   ]
   },
   {
+   "pid": "g10_006",
    "grade": 10,
    "title": "永遇乐·京口北固亭怀古",
    "author": "辛弃疾",
@@ -4279,9 +5748,14 @@ window.POEM_BANK = {
     "韦应物",
     "辛弃疾"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g10_006",
    "grade": 10,
    "title": "永遇乐·京口北固亭怀古",
    "author": "辛弃疾",
@@ -4294,9 +5768,14 @@ window.POEM_BANK = {
     "冰泉冷涩弦凝绝，凝绝不通声暂歇。",
     "去来江口守空船，绕船月明江水寒。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g11_001",
    "grade": 11,
    "title": "蜀道难",
    "author": "李白",
@@ -4309,9 +5788,15 @@ window.POEM_BANK = {
     "韦应物",
     "李白"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "frontier",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_001",
    "grade": 11,
    "title": "蜀道难",
    "author": "李白",
@@ -4324,9 +5809,15 @@ window.POEM_BANK = {
     "尔来四万八千岁，不与秦塞通人烟。",
     "大弦嘈嘈如急雨，小弦切切如私语。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "frontier",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_002",
    "grade": 11,
    "title": "琵琶行",
    "author": "白居易",
@@ -4339,9 +5830,20 @@ window.POEM_BANK = {
     "周敦颐",
     "欧阳修"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_002",
    "grade": 11,
    "title": "琵琶行",
    "author": "白居易",
@@ -4354,9 +5856,20 @@ window.POEM_BANK = {
     "乘骐骥以驰骋兮，来吾道夫先路！",
     "白日放歌须纵酒，青春作伴好还乡。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_003",
    "grade": 11,
    "title": "锦瑟",
    "author": "李商隐",
@@ -4369,9 +5882,16 @@ window.POEM_BANK = {
     "曾几",
     "谭嗣同"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_003",
    "grade": 11,
    "title": "锦瑟",
    "author": "李商隐",
@@ -4384,9 +5904,16 @@ window.POEM_BANK = {
     "转轴拨弦三两声，未成曲调先有情。",
     "沧海月明珠有泪，蓝田日暖玉生烟。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_004",
    "grade": 11,
    "title": "虞美人",
    "author": "李煜",
@@ -4399,9 +5926,15 @@ window.POEM_BANK = {
     "欧阳修",
     "李煜"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_004",
    "grade": 11,
    "title": "虞美人",
    "author": "李煜",
@@ -4414,9 +5947,15 @@ window.POEM_BANK = {
     "雕栏玉砌应犹在，只是朱颜改。",
     "座中泣下谁最多？江州司马青衫湿。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g11_005",
    "grade": 11,
    "title": "蝶恋花",
    "author": "晏殊",
@@ -4429,9 +5968,18 @@ window.POEM_BANK = {
     "黄庭坚",
     "欧阳修"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g11_005",
    "grade": 11,
    "title": "蝶恋花",
    "author": "晏殊",
@@ -4444,9 +5992,18 @@ window.POEM_BANK = {
     "欲寄彩笺兼尺素，山长水阔知何处？",
     "蓬山此去无多路，青鸟殷勤为探看。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g12_001",
    "grade": 12,
    "title": "氓",
    "author": "佚名",
@@ -4459,9 +6016,16 @@ window.POEM_BANK = {
     "张继",
     "荀子"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g12_001",
    "grade": 12,
    "title": "氓",
    "author": "佚名",
@@ -4474,9 +6038,16 @@ window.POEM_BANK = {
     "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
     "朝避猛虎，夕避长蛇；磨牙吮血，杀人如麻。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g12_002",
    "grade": 12,
    "title": "离骚",
    "author": "屈原",
@@ -4489,9 +6060,15 @@ window.POEM_BANK = {
     "林升",
     "屈原"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g12_002",
    "grade": 12,
    "title": "离骚",
    "author": "屈原",
@@ -4504,9 +6081,15 @@ window.POEM_BANK = {
     "座中泣下谁最多？江州司马青衫湿。",
     "停杯投箸不能食，拔剑四顾心茫然。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g12_003",
    "grade": 12,
    "title": "蜀相",
    "author": "杜甫",
@@ -4519,9 +6102,14 @@ window.POEM_BANK = {
     "李清照",
     "雷震"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "patriot"
+   ]
   },
   {
+   "pid": "g12_003",
    "grade": 12,
    "title": "蜀相",
    "author": "杜甫",
@@ -4534,9 +6122,14 @@ window.POEM_BANK = {
     "移船相近邀相见，添酒回灯重开宴。",
     "熊咆龙吟殷岩泉，栗深林兮惊层巅。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "spring",
+    "patriot"
+   ]
   },
   {
+   "pid": "g12_004",
    "grade": 12,
    "title": "书愤",
    "author": "陆游",
@@ -4549,9 +6142,17 @@ window.POEM_BANK = {
     "于谦",
     "陆游"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g12_004",
    "grade": 12,
    "title": "书愤",
    "author": "陆游",
@@ -4564,9 +6165,17 @@ window.POEM_BANK = {
     "今年欢笑复明年，秋月春风等闲度。",
     "凄凄不似向前声，满座重闻皆掩泣。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g12_005",
    "grade": 12,
    "title": "扬州慢",
    "author": "姜夔",
@@ -4579,9 +6188,15 @@ window.POEM_BANK = {
     "王之涣",
     "姜夔"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "winter",
+    "frontier"
+   ]
   },
   {
+   "pid": "g12_005",
    "grade": 12,
    "title": "扬州慢",
    "author": "姜夔",
@@ -4594,9 +6209,15 @@ window.POEM_BANK = {
     "聒碎乡心梦不成，故园无此声。",
     "帝高阳之苗裔兮，朕皇考曰伯庸。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "spring",
+    "winter",
+    "frontier"
+   ]
   },
   {
+   "pid": "g7_013",
    "grade": 7,
    "title": "卖油翁",
    "author": "欧阳修",
@@ -4609,9 +6230,11 @@ window.POEM_BANK = {
     "欧阳修",
     "魏学洢"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g7_013",
    "grade": 7,
    "title": "卖油翁",
    "author": "欧阳修",
@@ -4624,9 +6247,11 @@ window.POEM_BANK = {
     "因曰：「我亦无他，惟手熟尔。」",
     "乱石穿空，惊涛拍岸，卷起千堆雪。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g9_007",
    "grade": 9,
    "title": "出师表（节选）",
    "author": "诸葛亮",
@@ -4639,9 +6264,14 @@ window.POEM_BANK = {
     "诸葛亮",
     "陆游"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g9_007",
    "grade": 9,
    "title": "出师表（节选）",
    "author": "诸葛亮",
@@ -4654,9 +6284,14 @@ window.POEM_BANK = {
     "又留蚊于素帐中，徐喷以烟，使之冲烟而飞鸣，作青云白鹤观，果如鹤唳云端，为之怡然称快。",
     "《谐》之言曰：「鹏之徙于南冥也，水击三千里，抟扶摇而上者九万里，去以六月息者也。」"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g9_008",
    "grade": 9,
    "title": "岳阳楼记（节选）",
    "author": "范仲淹",
@@ -4669,9 +6304,15 @@ window.POEM_BANK = {
     "朱熹",
     "范仲淹"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g9_008",
    "grade": 9,
    "title": "岳阳楼记（节选）",
    "author": "范仲淹",
@@ -4684,9 +6325,15 @@ window.POEM_BANK = {
     "盈盈一水间，脉脉不得语。",
     "予观夫巴陵胜状，在洞庭一湖。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g8_011",
    "grade": 8,
    "title": "桃花源记（节选）",
    "author": "陶渊明",
@@ -4699,9 +6346,14 @@ window.POEM_BANK = {
     "翁卷",
     "陶渊明"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g8_011",
    "grade": 8,
    "title": "桃花源记（节选）",
    "author": "陶渊明",
@@ -4714,9 +6366,14 @@ window.POEM_BANK = {
     "缘溪行，忘路之远近。",
     "不要人夸好颜色，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g8_012",
    "grade": 8,
    "title": "小石潭记（节选）",
    "author": "柳宗元",
@@ -4729,9 +6386,11 @@ window.POEM_BANK = {
     "李煜",
     "王建"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": []
   },
   {
+   "pid": "g8_012",
    "grade": 8,
    "title": "小石潭记（节选）",
    "author": "柳宗元",
@@ -4744,9 +6403,11 @@ window.POEM_BANK = {
     "别君去兮何时还？且放白鹿青崖间，须行即骑访名山。",
     "言既遂矣，至于暴矣。兄弟不知，咥其笑矣。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": []
   },
   {
+   "pid": "g7_014",
    "grade": 7,
    "title": "狼",
    "author": "蒲松龄",
@@ -4759,9 +6420,11 @@ window.POEM_BANK = {
     "李峤",
     "崔颢"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": []
   },
   {
+   "pid": "g7_014",
    "grade": 7,
    "title": "狼",
    "author": "蒲松龄",
@@ -4774,9 +6437,11 @@ window.POEM_BANK = {
     "屠惧，投以骨。",
     "茅檐长扫净无苔，"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g7_015",
    "grade": 7,
    "title": "陋室铭",
    "author": "刘禹锡",
@@ -4789,9 +6454,13 @@ window.POEM_BANK = {
     "刘禹锡",
     "孟浩然"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g7_015",
    "grade": 7,
    "title": "陋室铭",
    "author": "刘禹锡",
@@ -4804,9 +6473,13 @@ window.POEM_BANK = {
     "千古江山，英雄无觅孙仲谋处。",
     "苔痕上阶绿，草色入帘青。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g8_013",
    "grade": 8,
    "title": "爱莲说",
    "author": "周敦颐",
@@ -4819,9 +6492,15 @@ window.POEM_BANK = {
     "贺知章",
     "周敦颐"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_013",
    "grade": 8,
    "title": "爱莲说",
    "author": "周敦颐",
@@ -4834,9 +6513,15 @@ window.POEM_BANK = {
     "烽火连三月，家书抵万金。",
     "好雨知时节，当春乃发生。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g9_009",
    "grade": 9,
    "title": "醉翁亭记（节选）",
    "author": "欧阳修",
@@ -4849,9 +6534,15 @@ window.POEM_BANK = {
     "诸葛亮",
     "高适"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g9_009",
    "grade": 9,
    "title": "醉翁亭记（节选）",
    "author": "欧阳修",
@@ -4864,9 +6555,15 @@ window.POEM_BANK = {
     "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。",
     "其西南诸峰，林壑尤美，望之蔚然而深秀者，琅琊也。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g10_007",
    "grade": 10,
    "title": "赤壁赋（节选）",
    "author": "苏轼",
@@ -4879,9 +6576,16 @@ window.POEM_BANK = {
     "卢纶",
     "罗隐"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g10_007",
    "grade": 10,
    "title": "赤壁赋（节选）",
    "author": "苏轼",
@@ -4894,9 +6598,16 @@ window.POEM_BANK = {
     "长恨春归无觅处，",
     "短笛无腔信口吹。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g11_006",
    "grade": 11,
    "title": "劝学（节选）",
    "author": "荀子",
@@ -4909,9 +6620,15 @@ window.POEM_BANK = {
     "王翰",
     "王维"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g11_006",
    "grade": 11,
    "title": "劝学（节选）",
    "author": "荀子",
@@ -4924,9 +6641,15 @@ window.POEM_BANK = {
     "孤山寺北贾亭西，水面初平云脚低。",
     "庆历四年春，滕子京谪守巴陵郡。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g12_006",
    "grade": 12,
    "title": "师说（节选）",
    "author": "韩愈",
@@ -4939,9 +6662,11 @@ window.POEM_BANK = {
     "韩愈",
     "骆宾王"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": []
   },
   {
+   "pid": "g12_006",
    "grade": 12,
    "title": "师说（节选）",
    "author": "韩愈",
@@ -4954,9 +6679,11 @@ window.POEM_BANK = {
     "最喜小儿亡赖，溪头卧剥莲蓬。",
     "惑而不从师，其为惑也，终不解矣。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": []
   },
   {
+   "pid": "g10_008",
    "grade": 10,
    "title": "阿房宫赋（节选）",
    "author": "杜牧",
@@ -4969,9 +6696,14 @@ window.POEM_BANK = {
     "晏殊",
     "毛泽东"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g10_008",
    "grade": 10,
    "title": "阿房宫赋（节选）",
    "author": "杜牧",
@@ -4984,9 +6716,14 @@ window.POEM_BANK = {
     "初极狭，才通人。",
     "各抱地势，钩心斗角。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g11_007",
    "grade": 11,
    "title": "过秦论（节选）",
    "author": "贾谊",
@@ -4999,9 +6736,14 @@ window.POEM_BANK = {
     "王昌龄",
     "柳宗元"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g11_007",
    "grade": 11,
    "title": "过秦论（节选）",
    "author": "贾谊",
@@ -5014,9 +6756,14 @@ window.POEM_BANK = {
     "当是时也，商君佐之，内立法度，务耕织，修守战之具；",
     "别君去兮何时还？且放白鹿青崖间，须行即骑访名山。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g12_007",
    "grade": 12,
    "title": "逍遥游（节选）",
    "author": "庄子",
@@ -5029,9 +6776,13 @@ window.POEM_BANK = {
     "孟浩然",
     "岑参"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g12_007",
    "grade": 12,
    "title": "逍遥游（节选）",
    "author": "庄子",
@@ -5044,9 +6795,13 @@ window.POEM_BANK = {
     "会宾客大宴，于厅事之东北角，施八尺屏障，口技人坐屏障中，一桌、一椅、一扇、一抚尺而已。",
     "《谐》之言曰：「鹏之徙于南冥也，水击三千里，抟扶摇而上者九万里，去以六月息者也。」"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_028",
    "grade": 6,
    "title": "核舟记（节选）",
    "author": "魏学洢",
@@ -5059,9 +6814,13 @@ window.POEM_BANK = {
     "魏学洢",
     "白居易"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_028",
    "grade": 6,
    "title": "核舟记（节选）",
    "author": "魏学洢",
@@ -5074,9 +6833,13 @@ window.POEM_BANK = {
     "起舞弄清影，何似在人间。",
     "中轩敞者为舱，箬篷覆之。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_029",
    "grade": 6,
    "title": "口技",
    "author": "林嗣环",
@@ -5089,9 +6852,13 @@ window.POEM_BANK = {
     "袁枚",
     "林嗣环"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_029",
    "grade": 6,
    "title": "口技",
    "author": "林嗣环",
@@ -5104,9 +6871,13 @@ window.POEM_BANK = {
     "会宾客大宴，于厅事之东北角，施八尺屏障，口技人坐屏障中，一桌、一椅、一扇、一抚尺而已。",
     "又留蚊于素帐中，徐喷以烟，使之冲烟而飞鸣，作青云白鹤观，果如鹤唳云端，为之怡然称快。"
    ],
-   "answer": 2
+   "answer": 2,
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_021",
    "grade": 5,
    "title": "童趣",
    "author": "沈复",
@@ -5119,9 +6890,14 @@ window.POEM_BANK = {
     "唐寅",
     "卢梅坡"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_021",
    "grade": 5,
    "title": "童趣",
    "author": "沈复",
@@ -5134,9 +6910,14 @@ window.POEM_BANK = {
     "草长莺飞二月天，",
     "门泊东吴万里船。"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_016",
    "grade": 7,
    "title": "孙权劝学",
    "author": "司马光",
@@ -5149,9 +6930,14 @@ window.POEM_BANK = {
     "蒲松龄",
     "韦应物"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g7_016",
    "grade": 7,
    "title": "孙权劝学",
    "author": "司马光",
@@ -5164,9 +6950,14 @@ window.POEM_BANK = {
     "沧海月明珠有泪，蓝田日暖玉生烟。",
     "因曰：「我亦无他，惟手熟尔。」"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g8_014",
    "grade": 8,
    "title": "记承天寺夜游",
    "author": "苏轼",
@@ -5179,9 +6970,13 @@ window.POEM_BANK = {
     "韩翃",
     "曹操"
    ],
-   "answer": 1
+   "answer": 1,
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g8_014",
    "grade": 8,
    "title": "记承天寺夜游",
    "author": "苏轼",
@@ -5194,9 +6989,13 @@ window.POEM_BANK = {
     "鹏之背，不知其几千里也；",
     "怀民亦未寝，相与步于中庭。"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g9_010",
    "grade": 9,
    "title": "湖心亭看雪",
    "author": "张岱",
@@ -5209,9 +7008,16 @@ window.POEM_BANK = {
     "王之涣",
     "张岱"
    ],
-   "answer": 3
+   "answer": 3,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g9_010",
    "grade": 9,
    "title": "湖心亭看雪",
    "author": "张岱",
@@ -5224,11 +7030,18 @@ window.POEM_BANK = {
     "烽火连三月，家书抵万金。",
     "渐黄昏，清角吹寒，都在空城。"
    ],
-   "answer": 0
+   "answer": 0,
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   }
  ],
  "fills": [
   {
+   "pid": "g1_001",
    "grade": 1,
    "title": "咏鹅",
    "author": "骆宾王",
@@ -5245,9 +7058,13 @@ window.POEM_BANK = {
     "意",
     "战"
    ],
-   "fact": "《咏鹅》是唐时期骆宾王的作品,入选语文一年级课本。"
+   "fact": "《咏鹅》是唐时期骆宾王的作品,入选语文一年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_002",
    "grade": 1,
    "title": "江南",
    "author": "汉乐府",
@@ -5264,9 +7081,13 @@ window.POEM_BANK = {
     "美",
     "下"
    ],
-   "fact": "《江南》是汉时期汉乐府的作品,入选语文一年级课本。"
+   "fact": "《江南》是汉时期汉乐府的作品,入选语文一年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_003",
    "grade": 1,
    "title": "画",
    "author": "王维",
@@ -5283,9 +7104,14 @@ window.POEM_BANK = {
     "自",
     "今"
    ],
-   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。"
+   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g1_004",
    "grade": 1,
    "title": "悯农·其二",
    "author": "李绅",
@@ -5302,9 +7128,13 @@ window.POEM_BANK = {
     "下",
     "当"
    ],
-   "fact": "《悯农·其二》是唐时期李绅的作品,入选语文一年级课本。"
+   "fact": "《悯农·其二》是唐时期李绅的作品,入选语文一年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_005",
    "grade": 1,
    "title": "古朗月行",
    "author": "李白",
@@ -5321,9 +7151,11 @@ window.POEM_BANK = {
     "识",
     "流"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": []
   },
   {
+   "pid": "g1_006",
    "grade": 1,
    "title": "风",
    "author": "李峤",
@@ -5340,9 +7172,13 @@ window.POEM_BANK = {
     "阳",
     "边"
    ],
-   "fact": "《风》是唐时期李峤的作品,入选语文一年级课本。"
+   "fact": "《风》是唐时期李峤的作品,入选语文一年级课本。",
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_007",
    "grade": 1,
    "title": "春晓",
    "author": "孟浩然",
@@ -5359,9 +7195,13 @@ window.POEM_BANK = {
     "眠",
     "唯"
    ],
-   "fact": "孟浩然(689—740),唐代诗人。名浩，字浩然，唐代第一个大量写山水诗的诗人，是山水田园诗派的先驱。他的诗清淡自然，意境幽美，以五言诗见长，与王维并称「王孟」。代表作:《春晓》《过故人庄》《宿建德江》《耶溪晚望》《洛中送奚三还扬州》。"
+   "fact": "孟浩然(689—740),唐代诗人。名浩，字浩然，唐代第一个大量写山水诗的诗人，是山水田园诗派的先驱。他的诗清淡自然，意境幽美，以五言诗见长，与王维并称「王孟」。代表作:《春晓》《过故人庄》《宿建德江》《耶溪晚望》《洛中送奚三还扬州》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g1_008",
    "grade": 1,
    "title": "赠汪伦",
    "author": "李白",
@@ -5378,9 +7218,14 @@ window.POEM_BANK = {
     "乘",
     "苍"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g1_009",
    "grade": 1,
    "title": "静夜思",
    "author": "李白",
@@ -5397,9 +7242,14 @@ window.POEM_BANK = {
     "因",
     "属"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g1_010",
    "grade": 1,
    "title": "寻隐者不遇",
    "author": "贾岛",
@@ -5416,9 +7266,13 @@ window.POEM_BANK = {
     "到",
     "既"
    ],
-   "fact": "贾岛(779—843),唐代诗人。字阆仙，唐代诗人，以苦吟著称。他写诗注重字句推敲，与孟郊同为「寒士」诗人代表，有「郊寒岛瘦」之说。贾岛的诗多写荒凉枯寂之境，用词刻意求奇。代表作:《题李凝幽居》《寻隐者不遇》《渡桑干》。"
+   "fact": "贾岛(779—843),唐代诗人。字阆仙，唐代诗人，以苦吟著称。他写诗注重字句推敲，与孟郊同为「寒士」诗人代表，有「郊寒岛瘦」之说。贾岛的诗多写荒凉枯寂之境，用词刻意求奇。代表作:《题李凝幽居》《寻隐者不遇》《渡桑干》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_011",
    "grade": 1,
    "title": "人之初",
    "author": "王应麟",
@@ -5435,9 +7289,11 @@ window.POEM_BANK = {
     "雄",
     "暗"
    ],
-   "fact": "《人之初》是宋时期王应麟的作品,入选语文一年级课本。"
+   "fact": "《人之初》是宋时期王应麟的作品,入选语文一年级课本。",
+   "themes": []
   },
   {
+   "pid": "g1_012",
    "grade": 1,
    "title": "池上",
    "author": "白居易",
@@ -5454,9 +7310,13 @@ window.POEM_BANK = {
     "已",
     "鬓"
    ],
-   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。"
+   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_013",
    "grade": 1,
    "title": "小池",
    "author": "杨万里",
@@ -5473,9 +7333,13 @@ window.POEM_BANK = {
     "妇",
     "声"
    ],
-   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。"
+   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g1_014",
    "grade": 1,
    "title": "画鸡",
    "author": "唐寅",
@@ -5492,9 +7356,13 @@ window.POEM_BANK = {
     "晓",
     "色"
    ],
-   "fact": "《画鸡》是明时期唐寅的作品,入选语文一年级课本。"
+   "fact": "《画鸡》是明时期唐寅的作品,入选语文一年级课本。",
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g2_001",
    "grade": 2,
    "title": "梅花",
    "author": "王安石",
@@ -5511,9 +7379,14 @@ window.POEM_BANK = {
     "英",
     "蓬"
    ],
-   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。"
+   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。",
+   "themes": [
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_002",
    "grade": 2,
    "title": "小儿垂钓",
    "author": "胡令能",
@@ -5530,9 +7403,13 @@ window.POEM_BANK = {
     "垂",
     "蜀"
    ],
-   "fact": "《小儿垂钓》是唐时期胡令能的作品,入选语文二年级课本。"
+   "fact": "《小儿垂钓》是唐时期胡令能的作品,入选语文二年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_003",
    "grade": 2,
    "title": "登鹳雀楼",
    "author": "王之涣",
@@ -5549,9 +7426,14 @@ window.POEM_BANK = {
     "愁",
     "行"
    ],
-   "fact": "王之涣(688—742),唐代诗人。字季陵，盛唐边塞诗人。他的诗意境开阔，风格悲壮，常以西北边塞为题材。《登鹳雀楼》和《凉州词》都是千古传诵的名篇，被后世推为唐代绝句之冠。代表作:《登鹳雀楼》《凉州词》《送别》。"
+   "fact": "王之涣(688—742),唐代诗人。字季陵，盛唐边塞诗人。他的诗意境开阔，风格悲壮，常以西北边塞为题材。《登鹳雀楼》和《凉州词》都是千古传诵的名篇，被后世推为唐代绝句之冠。代表作:《登鹳雀楼》《凉州词》《送别》。",
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_004",
    "grade": 2,
    "title": "望庐山瀑布",
    "author": "李白",
@@ -5568,9 +7450,13 @@ window.POEM_BANK = {
     "猿",
     "后"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_005",
    "grade": 2,
    "title": "江雪",
    "author": "柳宗元",
@@ -5587,9 +7473,15 @@ window.POEM_BANK = {
     "恨",
     "能"
    ],
-   "fact": "柳宗元(773—819),唐代诗人。字子厚，唐代文学家、思想家，唐宋八大家之一。他与韩愈共同倡导古文运动，并称「韩柳」。柳宗元的诗清新淡雅，山水游记尤为出色，代表作《永州八记》。代表作:《江雪》《渔翁》《早梅》。"
+   "fact": "柳宗元(773—819),唐代诗人。字子厚，唐代文学家、思想家，唐宋八大家之一。他与韩愈共同倡导古文运动，并称「韩柳」。柳宗元的诗清新淡雅，山水游记尤为出色，代表作《永州八记》。代表作:《江雪》《渔翁》《早梅》。",
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g2_006",
    "grade": 2,
    "title": "夜宿山寺",
    "author": "李白",
@@ -5606,9 +7498,13 @@ window.POEM_BANK = {
     "蓬",
     "生"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_007",
    "grade": 2,
    "title": "敕勒歌",
    "author": "佚名",
@@ -5625,9 +7521,13 @@ window.POEM_BANK = {
     "晚",
     "勒"
    ],
-   "fact": "《敕勒歌》是北朝时期佚名的作品,入选语文二年级课本。"
+   "fact": "《敕勒歌》是北朝时期佚名的作品,入选语文二年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g2_008",
    "grade": 2,
    "title": "村居",
    "author": "高鼎",
@@ -5644,9 +7544,14 @@ window.POEM_BANK = {
     "风",
     "灯"
    ],
-   "fact": "高鼎(约1850年前后在世),清代诗人。字象一，一字拙翁，清代后期诗人。其生平事迹不详，但一首《村居》使他名留诗史。诗作充满乡村生活气息，语言清新自然。代表作:《村居》。"
+   "fact": "高鼎(约1850年前后在世),清代诗人。字象一，一字拙翁，清代后期诗人。其生平事迹不详，但一首《村居》使他名留诗史。诗作充满乡村生活气息，语言清新自然。代表作:《村居》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g2_009",
    "grade": 2,
    "title": "咏柳",
    "author": "贺知章",
@@ -5663,9 +7568,13 @@ window.POEM_BANK = {
     "好",
     "香"
    ],
-   "fact": "贺知章(659—744),唐代诗人。字季真，自号四明狂客，唐代著名诗人、书法家。性格豪放旷达，好饮酒，与李白、张旭等人友善。晚年辞官还乡，其诗清新通俗，《咏柳》《回乡偶书》最为著名。代表作:《咏柳》《回乡偶书》。"
+   "fact": "贺知章(659—744),唐代诗人。字季真，自号四明狂客，唐代著名诗人、书法家。性格豪放旷达，好饮酒，与李白、张旭等人友善。晚年辞官还乡，其诗清新通俗，《咏柳》《回乡偶书》最为著名。代表作:《咏柳》《回乡偶书》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g2_010",
    "grade": 2,
    "title": "赋得古原草送别",
    "author": "白居易",
@@ -5682,9 +7591,15 @@ window.POEM_BANK = {
     "渔",
     "离"
    ],
-   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。"
+   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。",
+   "themes": [
+    "spring",
+    "farewell",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g2_011",
    "grade": 2,
    "title": "晓出净慈寺送林子方",
    "author": "杨万里",
@@ -5701,9 +7616,14 @@ window.POEM_BANK = {
     "存",
     "康"
    ],
-   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。"
+   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。",
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g2_012",
    "grade": 2,
    "title": "绝句",
    "author": "杜甫",
@@ -5720,9 +7640,16 @@ window.POEM_BANK = {
     "岩",
     "登"
    ],
-   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。"
+   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。",
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_013",
    "grade": 2,
    "title": "悯农·其一",
    "author": "李绅",
@@ -5739,9 +7666,15 @@ window.POEM_BANK = {
     "种",
     "茫"
    ],
-   "fact": "《悯农·其一》是唐时期李绅的作品,入选语文二年级课本。"
+   "fact": "《悯农·其一》是唐时期李绅的作品,入选语文二年级课本。",
+   "themes": [
+    "spring",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g2_014",
    "grade": 2,
    "title": "舟夜书所见",
    "author": "查慎行",
@@ -5758,9 +7691,13 @@ window.POEM_BANK = {
     "巴",
     "珠"
    ],
-   "fact": "查慎行(1650—1727),清代诗人。字悔余，号初白，清代诗人。他是清代承前启后的重要诗人，诗作题材广泛，风格清新。其诗状物写景细腻传神，《舟夜书所见》是他广为传诵的名作。代表作:《舟夜书所见》《雨后秋花》。"
+   "fact": "查慎行(1650—1727),清代诗人。字悔余，号初白，清代诗人。他是清代承前启后的重要诗人，诗作题材广泛，风格清新。其诗状物写景细腻传神，《舟夜书所见》是他广为传诵的名作。代表作:《舟夜书所见》《雨后秋花》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_001",
    "grade": 3,
    "title": "所见",
    "author": "袁枚",
@@ -5779,9 +7716,13 @@ window.POEM_BANK = {
     "肃",
     "牛"
    ],
-   "fact": "《所见》是清时期袁枚的作品,入选语文三年级课本。"
+   "fact": "《所见》是清时期袁枚的作品,入选语文三年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_002",
    "grade": 3,
    "title": "山行",
    "author": "杜牧",
@@ -5800,9 +7741,15 @@ window.POEM_BANK = {
     "斜",
     "径"
    ],
-   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。"
+   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。",
+   "themes": [
+    "winter",
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_003",
    "grade": 3,
    "title": "赠刘景文",
    "author": "苏轼",
@@ -5821,9 +7768,14 @@ window.POEM_BANK = {
     "尽",
     "细"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_004",
    "grade": 3,
    "title": "夜书所见",
    "author": "叶绍翁",
@@ -5842,9 +7794,17 @@ window.POEM_BANK = {
     "过",
     "香"
    ],
-   "fact": "《夜书所见》是宋时期叶绍翁的作品,入选语文三年级课本。"
+   "fact": "《夜书所见》是宋时期叶绍翁的作品,入选语文三年级课本。",
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_005",
    "grade": 3,
    "title": "望天门山",
    "author": "李白",
@@ -5863,9 +7823,13 @@ window.POEM_BANK = {
     "宫",
     "忆"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_006",
    "grade": 3,
    "title": "饮湖上初晴后雨",
    "author": "苏轼",
@@ -5884,9 +7848,13 @@ window.POEM_BANK = {
     "光",
     "仙"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_007",
    "grade": 3,
    "title": "望洞庭",
    "author": "刘禹锡",
@@ -5905,9 +7873,14 @@ window.POEM_BANK = {
     "少",
     "秋"
    ],
-   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。"
+   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。",
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g3_008",
    "grade": 3,
    "title": "早发白帝城",
    "author": "李白",
@@ -5926,9 +7899,13 @@ window.POEM_BANK = {
     "丝",
     "雨"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_009",
    "grade": 3,
    "title": "采莲曲",
    "author": "王昌龄",
@@ -5947,9 +7924,13 @@ window.POEM_BANK = {
     "停",
     "迟"
    ],
-   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。"
+   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g3_010",
    "grade": 3,
    "title": "绝句",
    "author": "杜甫",
@@ -5968,9 +7949,14 @@ window.POEM_BANK = {
     "野",
     "黄"
    ],
-   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。"
+   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_011",
    "grade": 3,
    "title": "惠崇春江晚景",
    "author": "苏轼",
@@ -5989,9 +7975,13 @@ window.POEM_BANK = {
     "浮",
     "桃"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g3_012",
    "grade": 3,
    "title": "三衢道中",
    "author": "曾几",
@@ -6010,9 +8000,14 @@ window.POEM_BANK = {
     "日",
     "存"
    ],
-   "fact": "《三衢道中》是宋时期曾几的作品,入选语文三年级课本。"
+   "fact": "《三衢道中》是宋时期曾几的作品,入选语文三年级课本。",
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g3_013",
    "grade": 3,
    "title": "忆江南",
    "author": "白居易",
@@ -6031,9 +8026,14 @@ window.POEM_BANK = {
     "却",
     "曾"
    ],
-   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。"
+   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。",
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_014",
    "grade": 3,
    "title": "元日",
    "author": "王安石",
@@ -6052,9 +8052,14 @@ window.POEM_BANK = {
     "暮",
     "游"
    ],
-   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。"
+   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。",
+   "themes": [
+    "spring",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_015",
    "grade": 3,
    "title": "清明",
    "author": "杜牧",
@@ -6073,9 +8078,15 @@ window.POEM_BANK = {
     "窗",
     "雨"
    ],
-   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。"
+   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。",
+   "themes": [
+    "spring",
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g3_016",
    "grade": 3,
    "title": "九月九日忆山东兄弟",
    "author": "王维",
@@ -6094,9 +8105,14 @@ window.POEM_BANK = {
     "乡",
     "猿"
    ],
-   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。"
+   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。",
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_017",
    "grade": 3,
    "title": "滁州西涧",
    "author": "韦应物",
@@ -6115,9 +8131,14 @@ window.POEM_BANK = {
     "侧",
     "边"
    ],
-   "fact": "《滁州西涧》是唐时期韦应物的作品,入选语文三年级课本。"
+   "fact": "《滁州西涧》是唐时期韦应物的作品,入选语文三年级课本。",
+   "themes": [
+    "spring",
+    "homeland"
+   ]
   },
   {
+   "pid": "g3_018",
    "grade": 3,
    "title": "大林寺桃花",
    "author": "白居易",
@@ -6136,9 +8157,14 @@ window.POEM_BANK = {
     "四",
     "须"
    ],
-   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。"
+   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g4_001",
    "grade": 4,
    "title": "鹿柴",
    "author": "王维",
@@ -6157,9 +8183,13 @@ window.POEM_BANK = {
     "音",
     "盘"
    ],
-   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。"
+   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_002",
    "grade": 4,
    "title": "暮江吟",
    "author": "白居易",
@@ -6178,9 +8208,14 @@ window.POEM_BANK = {
     "辞",
     "不"
    ],
-   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。"
+   "fact": "白居易(772—846),唐代诗人。字乐天，号香山居士，唐代伟大的现实主义诗人。他的诗语言通俗易懂，风格平易近人，强调「文章合为时而著，歌诗合为事而作」。白居易与元稹并称「元白」，是新乐府运动的倡导者。代表作:《赋得古原草送别》《钱塘湖春行》《忆江南》《卖炭翁》《琵琶行》。",
+   "themes": [
+    "frontier",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_003",
    "grade": 4,
    "title": "题西林壁",
    "author": "苏轼",
@@ -6199,9 +8234,14 @@ window.POEM_BANK = {
     "是",
     "成"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_004",
    "grade": 4,
    "title": "雪梅",
    "author": "卢梅坡",
@@ -6220,9 +8260,15 @@ window.POEM_BANK = {
     "欲",
     "及"
    ],
-   "fact": "《雪梅》是宋时期卢梅坡的作品,入选语文四年级课本。"
+   "fact": "《雪梅》是宋时期卢梅坡的作品,入选语文四年级课本。",
+   "themes": [
+    "spring",
+    "winter",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g4_005",
    "grade": 4,
    "title": "嫦娥",
    "author": "李商隐",
@@ -6241,9 +8287,13 @@ window.POEM_BANK = {
     "影",
     "烛"
    ],
-   "fact": "李商隐(813—858),唐代诗人。字义山，号玉溪生，晚唐著名诗人。他的诗构思新奇，风格浓丽，尤其是爱情诗写得深情绵邈、婉约含蓄，与杜牧合称「小李杜」，在中国诗歌史上占有重要地位。代表作:《夜雨寄北》《无题》《锦瑟》《登乐游原》。"
+   "fact": "李商隐(813—858),唐代诗人。字义山，号玉溪生，晚唐著名诗人。他的诗构思新奇，风格浓丽，尤其是爱情诗写得深情绵邈、婉约含蓄，与杜牧合称「小李杜」，在中国诗歌史上占有重要地位。代表作:《夜雨寄北》《无题》《锦瑟》《登乐游原》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_006",
    "grade": 4,
    "title": "出塞",
    "author": "王昌龄",
@@ -6262,9 +8312,14 @@ window.POEM_BANK = {
     "重",
     "明"
    ],
-   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。"
+   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。",
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g4_007",
    "grade": 4,
    "title": "凉州词",
    "author": "王翰",
@@ -6283,9 +8338,14 @@ window.POEM_BANK = {
     "西",
     "浮"
    ],
-   "fact": "《凉州词》是唐时期王翰的作品,入选语文四年级课本。"
+   "fact": "《凉州词》是唐时期王翰的作品,入选语文四年级课本。",
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g4_008",
    "grade": 4,
    "title": "夏日绝句",
    "author": "李清照",
@@ -6304,9 +8364,13 @@ window.POEM_BANK = {
     "湖",
     "杰"
    ],
-   "fact": "李清照(1084—约1155),宋代诗人。号易安居士，宋代女词人，中国古代最杰出的女作家之一。她的词前期清新婉丽，多写闺阁生活；后期感伤悲凉，多抒亡国之痛。语言清丽典雅，音律和谐优美。代表作:《如梦令》《醉花阴》《声声慢》《一剪梅》。"
+   "fact": "李清照(1084—约1155),宋代诗人。号易安居士，宋代女词人，中国古代最杰出的女作家之一。她的词前期清新婉丽，多写闺阁生活；后期感伤悲凉，多抒亡国之痛。语言清丽典雅，音律和谐优美。代表作:《如梦令》《醉花阴》《声声慢》《一剪梅》。",
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_009",
    "grade": 4,
    "title": "别董大",
    "author": "高适",
@@ -6325,9 +8389,15 @@ window.POEM_BANK = {
     "师",
     "旧"
    ],
-   "fact": "《别董大》是唐时期高适的作品,入选语文四年级课本。"
+   "fact": "《别董大》是唐时期高适的作品,入选语文四年级课本。",
+   "themes": [
+    "winter",
+    "farewell",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_010",
    "grade": 4,
    "title": "宿新市徐公店",
    "author": "杨万里",
@@ -6346,9 +8416,13 @@ window.POEM_BANK = {
     "只",
     "一"
    ],
-   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。"
+   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_011",
    "grade": 4,
    "title": "四时田园杂兴·其二十五",
    "author": "范成大",
@@ -6367,9 +8441,15 @@ window.POEM_BANK = {
     "难",
     "金"
    ],
-   "fact": "《四时田园杂兴·其二十五》是宋时期范成大的作品,入选语文四年级课本。"
+   "fact": "《四时田园杂兴·其二十五》是宋时期范成大的作品,入选语文四年级课本。",
+   "themes": [
+    "spring",
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g4_012",
    "grade": 4,
    "title": "清平乐·村居",
    "author": "辛弃疾",
@@ -6388,9 +8468,13 @@ window.POEM_BANK = {
     "檐",
     "得"
    ],
-   "fact": "辛弃疾(1140—1207),宋代诗人。字幼安，号稼轩，南宋豪放派词人。他文武双全，既有报国杀敌的壮志，又有深厚的文学修养。词风豪放雄健，充满爱国激情，与苏轼并称「苏辛」。代表作:《清平乐·村居》《西江月·夜行黄沙道中》《破阵子》《永遇乐》。"
+   "fact": "辛弃疾(1140—1207),宋代诗人。字幼安，号稼轩，南宋豪放派词人。他文武双全，既有报国杀敌的壮志，又有深厚的文学修养。词风豪放雄健，充满爱国激情，与苏轼并称「苏辛」。代表作:《清平乐·村居》《西江月·夜行黄沙道中》《破阵子》《永遇乐》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_014",
    "grade": 4,
    "title": "蜂",
    "author": "罗隐",
@@ -6409,9 +8493,13 @@ window.POEM_BANK = {
     "里",
     "平"
    ],
-   "fact": "《蜂》是唐时期罗隐的作品,入选语文四年级课本。"
+   "fact": "《蜂》是唐时期罗隐的作品,入选语文四年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g4_015",
    "grade": 4,
    "title": "独坐敬亭山",
    "author": "李白",
@@ -6430,9 +8518,14 @@ window.POEM_BANK = {
     "尽",
     "盈"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_016",
    "grade": 4,
    "title": "芙蓉楼送辛渐",
    "author": "王昌龄",
@@ -6451,9 +8544,16 @@ window.POEM_BANK = {
     "布",
     "连"
    ],
-   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。"
+   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。",
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g4_017",
    "grade": 4,
    "title": "塞下曲",
    "author": "卢纶",
@@ -6472,9 +8572,15 @@ window.POEM_BANK = {
     "忘",
     "觉"
    ],
-   "fact": "《塞下曲》是唐时期卢纶的作品,入选语文四年级课本。"
+   "fact": "《塞下曲》是唐时期卢纶的作品,入选语文四年级课本。",
+   "themes": [
+    "winter",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g4_018",
    "grade": 4,
    "title": "墨梅",
    "author": "王冕",
@@ -6493,9 +8599,13 @@ window.POEM_BANK = {
     "军",
     "手"
    ],
-   "fact": "《墨梅》是元时期王冕的作品,入选语文四年级课本。"
+   "fact": "《墨梅》是元时期王冕的作品,入选语文四年级课本。",
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g5_001",
    "grade": 5,
    "title": "乞巧",
    "author": "林杰",
@@ -6514,9 +8624,13 @@ window.POEM_BANK = {
     "蓬",
     "今"
    ],
-   "fact": "《乞巧》是唐时期林杰的作品,入选语文五年级课本。"
+   "fact": "《乞巧》是唐时期林杰的作品,入选语文五年级课本。",
+   "themes": [
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_002",
    "grade": 5,
    "title": "示儿",
    "author": "陆游",
@@ -6535,9 +8649,13 @@ window.POEM_BANK = {
     "知",
     "往"
    ],
-   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。"
+   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。",
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_003",
    "grade": 5,
    "title": "题临安邸",
    "author": "林升",
@@ -6556,9 +8674,13 @@ window.POEM_BANK = {
     "争",
     "楼"
    ],
-   "fact": "《题临安邸》是宋时期林升的作品,入选语文五年级课本。"
+   "fact": "《题临安邸》是宋时期林升的作品,入选语文五年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_004",
    "grade": 5,
    "title": "己亥杂诗",
    "author": "龚自珍",
@@ -6577,9 +8699,14 @@ window.POEM_BANK = {
     "近",
     "恃"
    ],
-   "fact": "龚自珍(1792—1841),清代诗人。字璱人，号定庵，清代思想家、文学家。他思想敏锐，文章诗词充满批判精神，是近代改良主义运动的先驱。其诗语言瑰丽，气势恢宏。代表作:《己亥杂诗》《夜坐》。"
+   "fact": "龚自珍(1792—1841),清代诗人。字璱人，号定庵，清代思想家、文学家。他思想敏锐，文章诗词充满批判精神，是近代改良主义运动的先驱。其诗语言瑰丽，气势恢宏。代表作:《己亥杂诗》《夜坐》。",
+   "themes": [
+    "farewell",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_006",
    "grade": 5,
    "title": "枫桥夜泊",
    "author": "张继",
@@ -6598,9 +8725,16 @@ window.POEM_BANK = {
     "唯",
     "食"
    ],
-   "fact": "《枫桥夜泊》是唐时期张继的作品,入选语文五年级课本。"
+   "fact": "《枫桥夜泊》是唐时期张继的作品,入选语文五年级课本。",
+   "themes": [
+    "winter",
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g5_007",
    "grade": 5,
    "title": "长相思",
    "author": "纳兰性德",
@@ -6619,9 +8753,15 @@ window.POEM_BANK = {
     "及",
     "水"
    ],
-   "fact": "纳兰性德(1655—1685),清代诗人。字容若，号楞伽山人，清代著名词人，权相明珠之子。他出身显贵却性情纯真，词作清新婉约，情感真挚动人，是清代词坛最杰出的作家之一，有「满清第一词人」之称。代表作:《长相思》《木兰花令》《蝶恋花》。"
+   "fact": "纳兰性德(1655—1685),清代诗人。字容若，号楞伽山人，清代著名词人，权相明珠之子。他出身显贵却性情纯真，词作清新婉约，情感真挚动人，是清代词坛最杰出的作家之一，有「满清第一词人」之称。代表作:《长相思》《木兰花令》《蝶恋花》。",
+   "themes": [
+    "winter",
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_008",
    "grade": 5,
    "title": "渔歌子",
    "author": "张志和",
@@ -6640,9 +8780,15 @@ window.POEM_BANK = {
     "亦",
     "雪"
    ],
-   "fact": "《渔歌子》是唐时期张志和的作品,入选语文五年级课本。"
+   "fact": "《渔歌子》是唐时期张志和的作品,入选语文五年级课本。",
+   "themes": [
+    "spring",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_009",
    "grade": 5,
    "title": "观书有感·其一",
    "author": "朱熹",
@@ -6661,9 +8807,13 @@ window.POEM_BANK = {
     "解",
     "皆"
    ],
-   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。"
+   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。",
+   "themes": [
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_010",
    "grade": 5,
    "title": "观书有感·其二",
    "author": "朱熹",
@@ -6682,9 +8832,14 @@ window.POEM_BANK = {
     "江",
     "吴"
    ],
-   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。"
+   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。",
+   "themes": [
+    "spring",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g5_011",
    "grade": 5,
    "title": "四时田园杂兴·其三十一",
    "author": "范成大",
@@ -6703,9 +8858,13 @@ window.POEM_BANK = {
     "曾",
     "耘"
    ],
-   "fact": "《四时田园杂兴·其三十一》是宋时期范成大的作品,入选语文五年级课本。"
+   "fact": "《四时田园杂兴·其三十一》是宋时期范成大的作品,入选语文五年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g5_012",
    "grade": 5,
    "title": "稚子弄冰",
    "author": "杨万里",
@@ -6724,9 +8883,13 @@ window.POEM_BANK = {
     "已",
     "弦"
    ],
-   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。"
+   "fact": "杨万里(1127—1206),宋代诗人。字廷秀，号诚斋，南宋诗人，与陆游、尤袤、范成大并称「南宋四大家」。他自创「诚斋体」，诗风清新自然，语言通俗，想象丰富，充满生活情趣。代表作:《小池》《晓出净慈寺送林子方》《宿新市徐公店》。",
+   "themes": [
+    "winter"
+   ]
   },
   {
+   "pid": "g5_013",
    "grade": 5,
    "title": "村晚",
    "author": "雷震",
@@ -6745,9 +8908,14 @@ window.POEM_BANK = {
     "鱼",
     "琵"
    ],
-   "fact": "《村晚》是宋时期雷震的作品,入选语文五年级课本。"
+   "fact": "《村晚》是宋时期雷震的作品,入选语文五年级课本。",
+   "themes": [
+    "winter",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_014",
    "grade": 5,
    "title": "鸟鸣涧",
    "author": "王维",
@@ -6766,9 +8934,14 @@ window.POEM_BANK = {
     "眉",
     "为"
    ],
-   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。"
+   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_015",
    "grade": 5,
    "title": "从军行",
    "author": "王昌龄",
@@ -6787,9 +8960,15 @@ window.POEM_BANK = {
     "家",
     "长"
    ],
-   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。"
+   "fact": "王昌龄(698—约756),唐代诗人。字少伯，盛唐著名边塞诗人，被誉为「七绝圣手」。他的边塞诗意境开阔，格调高昂，《出塞》《从军行》等作品慷慨悲壮，是唐代边塞诗的代表人物之一。代表作:《出塞》《芙蓉楼送辛渐》《从军行》。",
+   "themes": [
+    "winter",
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g5_016",
    "grade": 5,
    "title": "送元二使安西",
    "author": "王维",
@@ -6808,9 +8987,15 @@ window.POEM_BANK = {
     "轻",
     "崖"
    ],
-   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。"
+   "fact": "王维(701—761),唐代诗人。字摩诘，号摩诘居士，唐代山水田园诗派代表人物，被誉为「诗佛」。他的诗「诗中有画，画中有诗」，意境空灵淡远。苏轼评价他「味摩诘之诗，诗中有画；观摩诘之画，画中有诗」。代表作:《鸟鸣涧》《山居秋暝》《使至塞上》《送元二使安西》《九月九日忆山东兄弟》。",
+   "themes": [
+    "spring",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_017",
    "grade": 5,
    "title": "秋夜将晓出篱门迎凉有感",
    "author": "陆游",
@@ -6829,9 +9014,16 @@ window.POEM_BANK = {
     "东",
     "以"
    ],
-   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。"
+   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。",
+   "themes": [
+    "nature",
+    "frontier",
+    "autumn",
+    "patriot"
+   ]
   },
   {
+   "pid": "g5_018",
    "grade": 5,
    "title": "凉州词",
    "author": "王之涣",
@@ -6850,9 +9042,14 @@ window.POEM_BANK = {
     "白",
     "上"
    ],
-   "fact": "王之涣(688—742),唐代诗人。字季陵，盛唐边塞诗人。他的诗意境开阔，风格悲壮，常以西北边塞为题材。《登鹳雀楼》和《凉州词》都是千古传诵的名篇，被后世推为唐代绝句之冠。代表作:《登鹳雀楼》《凉州词》《送别》。"
+   "fact": "王之涣(688—742),唐代诗人。字季陵，盛唐边塞诗人。他的诗意境开阔，风格悲壮，常以西北边塞为题材。《登鹳雀楼》和《凉州词》都是千古传诵的名篇，被后世推为唐代绝句之冠。代表作:《登鹳雀楼》《凉州词》《送别》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g5_019",
    "grade": 5,
    "title": "黄鹤楼送孟浩然之广陵",
    "author": "李白",
@@ -6871,9 +9068,13 @@ window.POEM_BANK = {
     "一",
     "北"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "farewell"
+   ]
   },
   {
+   "pid": "g5_020",
    "grade": 5,
    "title": "乡村四月",
    "author": "翁卷",
@@ -6892,9 +9093,14 @@ window.POEM_BANK = {
     "历",
     "泉"
    ],
-   "fact": "《乡村四月》是宋时期翁卷的作品,入选语文五年级课本。"
+   "fact": "《乡村四月》是宋时期翁卷的作品,入选语文五年级课本。",
+   "themes": [
+    "nature",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_001",
    "grade": 6,
    "title": "宿建德江",
    "author": "孟浩然",
@@ -6913,9 +9119,13 @@ window.POEM_BANK = {
     "受",
     "垂"
    ],
-   "fact": "孟浩然(689—740),唐代诗人。名浩，字浩然，唐代第一个大量写山水诗的诗人，是山水田园诗派的先驱。他的诗清淡自然，意境幽美，以五言诗见长，与王维并称「王孟」。代表作:《春晓》《过故人庄》《宿建德江》《耶溪晚望》《洛中送奚三还扬州》。"
+   "fact": "孟浩然(689—740),唐代诗人。名浩，字浩然，唐代第一个大量写山水诗的诗人，是山水田园诗派的先驱。他的诗清淡自然，意境幽美，以五言诗见长，与王维并称「王孟」。代表作:《春晓》《过故人庄》《宿建德江》《耶溪晚望》《洛中送奚三还扬州》。",
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_002",
    "grade": 6,
    "title": "六月二十七日望湖楼醉书",
    "author": "苏轼",
@@ -6934,9 +9144,13 @@ window.POEM_BANK = {
     "发",
     "自"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_006",
    "grade": 6,
    "title": "春日",
    "author": "朱熹",
@@ -6955,9 +9169,13 @@ window.POEM_BANK = {
     "寻",
     "刀"
    ],
-   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。"
+   "fact": "朱熹(1130—1200),宋代诗人。字元晦，号晦庵，南宋理学家、教育家，儒学集大成者。他也是著名诗人，诗作语言平易，意境深邃，常寓哲理于景物描写之中。代表作:《观书有感》《春日》《泛舟》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_007",
    "grade": 6,
    "title": "回乡偶书",
    "author": "贺知章",
@@ -6976,9 +9194,14 @@ window.POEM_BANK = {
     "属",
     "燕"
    ],
-   "fact": "贺知章(659—744),唐代诗人。字季真，自号四明狂客，唐代著名诗人、书法家。性格豪放旷达，好饮酒，与李白、张旭等人友善。晚年辞官还乡，其诗清新通俗，《咏柳》《回乡偶书》最为著名。代表作:《咏柳》《回乡偶书》。"
+   "fact": "贺知章(659—744),唐代诗人。字季真，自号四明狂客，唐代著名诗人、书法家。性格豪放旷达，好饮酒，与李白、张旭等人友善。晚年辞官还乡，其诗清新通俗，《咏柳》《回乡偶书》最为著名。代表作:《咏柳》《回乡偶书》。",
+   "themes": [
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_008",
    "grade": 6,
    "title": "浪淘沙",
    "author": "刘禹锡",
@@ -6997,9 +9220,11 @@ window.POEM_BANK = {
     "枝",
     "规"
    ],
-   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。"
+   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。",
+   "themes": []
   },
   {
+   "pid": "g6_009",
    "grade": 6,
    "title": "江南春",
    "author": "杜牧",
@@ -7018,9 +9243,16 @@ window.POEM_BANK = {
     "怜",
     "杨"
    ],
-   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。"
+   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。",
+   "themes": [
+    "spring",
+    "nature",
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_010",
    "grade": 6,
    "title": "书湖阴先生壁",
    "author": "王安石",
@@ -7039,9 +9271,14 @@ window.POEM_BANK = {
     "净",
     "下"
    ],
-   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。"
+   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。",
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g6_011",
    "grade": 6,
    "title": "寒食",
    "author": "韩翃",
@@ -7060,9 +9297,14 @@ window.POEM_BANK = {
     "常",
     "当"
    ],
-   "fact": "《寒食》是唐时期韩翃的作品,入选语文六年级课本。"
+   "fact": "《寒食》是唐时期韩翃的作品,入选语文六年级课本。",
+   "themes": [
+    "spring",
+    "winter"
+   ]
   },
   {
+   "pid": "g6_013",
    "grade": 6,
    "title": "十五夜望月",
    "author": "王建",
@@ -7081,9 +9323,14 @@ window.POEM_BANK = {
     "谁",
     "朱"
    ],
-   "fact": "《十五夜望月》是唐时期王建的作品,入选语文六年级课本。"
+   "fact": "《十五夜望月》是唐时期王建的作品,入选语文六年级课本。",
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_015",
    "grade": 6,
    "title": "马诗",
    "author": "李贺",
@@ -7102,9 +9349,17 @@ window.POEM_BANK = {
     "原",
     "漠"
    ],
-   "fact": "李贺(790—816),唐代诗人。字长吉，唐代诗人，被称为「诗鬼」。他的诗想象奇特，意象诡异，语言瑰丽冷艳，在唐代诗坛独树一帜，对后世影响深远。代表作:《雁门太守行》《马诗》《李凭箜篌引》。"
+   "fact": "李贺(790—816),唐代诗人。字长吉，唐代诗人，被称为「诗鬼」。他的诗想象奇特，意象诡异，语言瑰丽冷艳，在唐代诗坛独树一帜，对后世影响深远。代表作:《雁门太守行》《马诗》《李凭箜篌引》。",
+   "themes": [
+    "spring",
+    "winter",
+    "nature",
+    "frontier",
+    "autumn"
+   ]
   },
   {
+   "pid": "g6_016",
    "grade": 6,
    "title": "石灰吟",
    "author": "于谦",
@@ -7123,9 +9378,14 @@ window.POEM_BANK = {
     "兰",
     "出"
    ],
-   "fact": "于谦(1398—1457),明代诗人。字廷益，号节庵，明代著名政治家、军事家、诗人。他为官清廉，刚正不阿，土木堡之变后力主抗敌，拥立景帝。《石灰吟》是他人格的写照。代表作:《石灰吟》《北风吹》《暮春阻雨》。"
+   "fact": "于谦(1398—1457),明代诗人。字廷益，号节庵，明代著名政治家、军事家、诗人。他为官清廉，刚正不阿，土木堡之变后力主抗敌，拥立景帝。《石灰吟》是他人格的写照。代表作:《石灰吟》《北风吹》《暮春阻雨》。",
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_017",
    "grade": 6,
    "title": "竹石",
    "author": "郑燮",
@@ -7144,9 +9404,14 @@ window.POEM_BANK = {
     "琵",
     "山"
    ],
-   "fact": "《竹石》是清时期郑燮的作品,入选语文六年级课本。"
+   "fact": "《竹石》是清时期郑燮的作品,入选语文六年级课本。",
+   "themes": [
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_018",
    "grade": 6,
    "title": "采薇",
    "author": "佚名",
@@ -7165,9 +9430,15 @@ window.POEM_BANK = {
     "曰",
     "黄"
    ],
-   "fact": "《采薇》是先秦时期佚名的作品,入选语文六年级课本。"
+   "fact": "《采薇》是先秦时期佚名的作品,入选语文六年级课本。",
+   "themes": [
+    "spring",
+    "winter",
+    "homeland"
+   ]
   },
   {
+   "pid": "g6_021",
    "grade": 6,
    "title": "早春呈水部张十八员外",
    "author": "韩愈",
@@ -7186,9 +9457,13 @@ window.POEM_BANK = {
     "如",
     "润"
    ],
-   "fact": "韩愈(768—824),唐代诗人。字退之，唐代文学家、思想家，唐宋八大家之首。他倡导古文运动，主张「文以载道」。韩愈也是杰出诗人，其诗风雄奇险怪，与孟郊并称「韩孟诗派」。代表作:《早春呈水部张十八员外》《左迁至蓝关示侄孙湘》。"
+   "fact": "韩愈(768—824),唐代诗人。字退之，唐代文学家、思想家，唐宋八大家之首。他倡导古文运动，主张「文以载道」。韩愈也是杰出诗人，其诗风雄奇险怪，与孟郊并称「韩孟诗派」。代表作:《早春呈水部张十八员外》《左迁至蓝关示侄孙湘》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g6_022",
    "grade": 6,
    "title": "舟夜书所见",
    "author": "查慎行",
@@ -7207,9 +9482,13 @@ window.POEM_BANK = {
     "甚",
     "琵"
    ],
-   "fact": "查慎行(1650—1727),清代诗人。字悔余，号初白，清代诗人。他是清代承前启后的重要诗人，诗作题材广泛，风格清新。其诗状物写景细腻传神，《舟夜书所见》是他广为传诵的名作。代表作:《舟夜书所见》《雨后秋花》。"
+   "fact": "查慎行(1650—1727),清代诗人。字悔余，号初白，清代诗人。他是清代承前启后的重要诗人，诗作题材广泛，风格清新。其诗状物写景细腻传神，《舟夜书所见》是他广为传诵的名作。代表作:《舟夜书所见》《雨后秋花》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_023",
    "grade": 6,
    "title": "泊船瓜洲",
    "author": "王安石",
@@ -7228,9 +9507,14 @@ window.POEM_BANK = {
     "台",
     "卧"
    ],
-   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。"
+   "fact": "王安石(1021—1086),宋代诗人。字介甫，号半山，北宋政治家、文学家，唐宋八大家之一。他是著名的改革家，主持熙宁变法。其文雄健峭拔，诗风遒劲清新，词作风格高峻。代表作:《泊船瓜洲》《元日》《登飞来峰》《书湖阴先生壁》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g6_024",
    "grade": 6,
    "title": "游园不值",
    "author": "叶绍翁",
@@ -7249,9 +9533,15 @@ window.POEM_BANK = {
     "若",
     "死"
    ],
-   "fact": "《游园不值》是宋时期叶绍翁的作品,入选语文六年级课本。"
+   "fact": "《游园不值》是宋时期叶绍翁的作品,入选语文六年级课本。",
+   "themes": [
+    "spring",
+    "nature",
+    "wisdom"
+   ]
   },
   {
+   "pid": "g6_026",
    "grade": 6,
    "title": "浣溪沙",
    "author": "苏轼",
@@ -7270,9 +9560,14 @@ window.POEM_BANK = {
     "园",
     "晓"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_001",
    "grade": 7,
    "title": "观沧海",
    "author": "曹操",
@@ -7291,9 +9586,14 @@ window.POEM_BANK = {
     "五",
     "碣"
    ],
-   "fact": "《观沧海》是汉时期曹操的作品,入选语文七年级课本。"
+   "fact": "《观沧海》是汉时期曹操的作品,入选语文七年级课本。",
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_002",
    "grade": 7,
    "title": "闻王昌龄左迁龙标遥有此寄",
    "author": "李白",
@@ -7312,9 +9612,13 @@ window.POEM_BANK = {
     "惊",
     "浮"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g7_004",
    "grade": 7,
    "title": "天净沙·秋思",
    "author": "马致远",
@@ -7333,9 +9637,14 @@ window.POEM_BANK = {
     "猿",
     "迟"
    ],
-   "fact": "《天净沙·秋思》是元时期马致远的作品,入选语文七年级课本。"
+   "fact": "《天净沙·秋思》是元时期马致远的作品,入选语文七年级课本。",
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_005",
    "grade": 7,
    "title": "峨眉山月歌",
    "author": "李白",
@@ -7354,9 +9663,15 @@ window.POEM_BANK = {
     "半",
     "敢"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_006",
    "grade": 7,
    "title": "江南逢李龟年",
    "author": "杜甫",
@@ -7375,9 +9690,11 @@ window.POEM_BANK = {
     "万",
     "停"
    ],
-   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。"
+   "fact": "杜甫(712—770),唐代诗人。字子美，自号少陵野老，唐代现实主义诗人，被誉为「诗圣」。他的诗深刻反映社会现实，表达忧国忧民的情怀。杜甫颠沛流离的一生使他的作品具有深厚的历史价值和人文精神。代表作:《春望》《茅屋为秋风所破歌》《望岳》《春夜喜雨》《绝句》。",
+   "themes": []
   },
   {
+   "pid": "g7_007",
    "grade": 7,
    "title": "行军九日思长安故园",
    "author": "岑参",
@@ -7396,9 +9713,17 @@ window.POEM_BANK = {
     "红",
     "焉"
    ],
-   "fact": "岑参(715—770),唐代诗人。唐代边塞诗人，与高适并称「高岑」。他两度出塞，诗作多描写边塞风光和军旅生活，风格雄奇瑰丽，想象丰富，《白雪歌送武判官归京》是其代表作。代表作:《白雪歌送武判官归京》《逢入京使》《走马川行奉送封大夫出师西征》。"
+   "fact": "岑参(715—770),唐代诗人。唐代边塞诗人，与高适并称「高岑」。他两度出塞，诗作多描写边塞风光和军旅生活，风格雄奇瑰丽，想象丰富，《白雪歌送武判官归京》是其代表作。代表作:《白雪歌送武判官归京》《逢入京使》《走马川行奉送封大夫出师西征》。",
+   "themes": [
+    "nature",
+    "frontier",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_008",
    "grade": 7,
    "title": "夜上受降城闻笛",
    "author": "李益",
@@ -7417,9 +9742,16 @@ window.POEM_BANK = {
     "为",
     "时"
    ],
-   "fact": "《夜上受降城闻笛》是唐时期李益的作品,入选语文七年级课本。"
+   "fact": "《夜上受降城闻笛》是唐时期李益的作品,入选语文七年级课本。",
+   "themes": [
+    "winter",
+    "frontier",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_009",
    "grade": 7,
    "title": "秋词",
    "author": "刘禹锡",
@@ -7438,9 +9770,14 @@ window.POEM_BANK = {
     "逢",
     "蜀"
    ],
-   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。"
+   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。",
+   "themes": [
+    "spring",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_010",
    "grade": 7,
    "title": "夜雨寄北",
    "author": "李商隐",
@@ -7459,9 +9796,14 @@ window.POEM_BANK = {
     "便",
     "复"
    ],
-   "fact": "李商隐(813—858),唐代诗人。字义山，号玉溪生，晚唐著名诗人。他的诗构思新奇，风格浓丽，尤其是爱情诗写得深情绵邈、婉约含蓄，与杜牧合称「小李杜」，在中国诗歌史上占有重要地位。代表作:《夜雨寄北》《无题》《锦瑟》《登乐游原》。"
+   "fact": "李商隐(813—858),唐代诗人。字义山，号玉溪生，晚唐著名诗人。他的诗构思新奇，风格浓丽，尤其是爱情诗写得深情绵邈、婉约含蓄，与杜牧合称「小李杜」，在中国诗歌史上占有重要地位。代表作:《夜雨寄北》《无题》《锦瑟》《登乐游原》。",
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_011",
    "grade": 7,
    "title": "十一月四日风雨大作",
    "author": "陆游",
@@ -7480,9 +9822,17 @@ window.POEM_BANK = {
     "八",
     "枝"
    ],
-   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。"
+   "fact": "陆游(1125—1210),宋代诗人。字务观，号放翁，南宋爱国诗人。他一生创作了近万首诗，是古代留下诗作最多的诗人之一。陆游始终坚守抗金救国理想，诗中充满壮志未酬的悲愤。代表作:《示儿》《游山西村》《十一月四日风雨大作》《卜算子·咏梅》。",
+   "themes": [
+    "winter",
+    "nature",
+    "frontier",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g7_012",
    "grade": 7,
    "title": "潼关",
    "author": "谭嗣同",
@@ -7501,9 +9851,14 @@ window.POEM_BANK = {
     "死",
     "余"
    ],
-   "fact": "《潼关》是清时期谭嗣同的作品,入选语文七年级课本。"
+   "fact": "《潼关》是清时期谭嗣同的作品,入选语文七年级课本。",
+   "themes": [
+    "nature",
+    "autumn"
+   ]
   },
   {
+   "pid": "g8_009",
    "grade": 8,
    "title": "赤壁",
    "author": "杜牧",
@@ -7522,9 +9877,13 @@ window.POEM_BANK = {
     "铁",
     "楚"
    ],
-   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。"
+   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。",
+   "themes": [
+    "spring"
+   ]
   },
   {
+   "pid": "g10_002",
    "grade": 10,
    "title": "短歌行",
    "author": "曹操",
@@ -7543,9 +9902,16 @@ window.POEM_BANK = {
     "主",
     "生"
    ],
-   "fact": "《短歌行》是汉时期曹操的作品,入选语文十年级课本。"
+   "fact": "《短歌行》是汉时期曹操的作品,入选语文十年级课本。",
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "patriot"
+   ]
   },
   {
+   "pid": "g10_003",
    "grade": 10,
    "title": "梦游天姥吟留别",
    "author": "李白",
@@ -7564,9 +9930,15 @@ window.POEM_BANK = {
     "牛",
     "言"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g11_001",
    "grade": 11,
    "title": "蜀道难",
    "author": "李白",
@@ -7585,9 +9957,15 @@ window.POEM_BANK = {
     "哉",
     "径"
    ],
-   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。"
+   "fact": "李白(701—762),唐代诗人。字太白，号青莲居士，唐代伟大的浪漫主义诗人，被誉为「诗仙」。他豪放不羁、想象丰富，诗风雄奇飘逸。其诗常充满对自由的向往和对人生的热爱，代表作有《静夜思》《将进酒》《蜀道难》等。代表作:《静夜思》《将进酒》《蜀道难》《早发白帝城》《望庐山瀑布》。",
+   "themes": [
+    "nature",
+    "frontier",
+    "patriot"
+   ]
   },
   {
+   "pid": "g12_001",
    "grade": 12,
    "title": "氓",
    "author": "佚名",
@@ -7606,9 +9984,16 @@ window.POEM_BANK = {
     "士",
     "期"
    ],
-   "fact": "《氓》是先秦时期佚名的作品,入选语文十二年级课本。"
+   "fact": "《氓》是先秦时期佚名的作品,入选语文十二年级课本。",
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_013",
    "grade": 7,
    "title": "卖油翁",
    "author": "欧阳修",
@@ -7627,9 +10012,11 @@ window.POEM_BANK = {
     "尔",
     "日"
    ],
-   "fact": "欧阳修(1007—1072),宋代诗人。字永叔，号醉翁，北宋文坛领袖，唐宋八大家之一。他力排浮艳的西昆体，倡导平实文风，与韩愈、柳宗元共同推动古文运动。词作清新自然，婉约动人。代表作:《醉翁亭记》《采桑子》《玉楼春》。"
+   "fact": "欧阳修(1007—1072),宋代诗人。字永叔，号醉翁，北宋文坛领袖，唐宋八大家之一。他力排浮艳的西昆体，倡导平实文风，与韩愈、柳宗元共同推动古文运动。词作清新自然，婉约动人。代表作:《醉翁亭记》《采桑子》《玉楼春》。",
+   "themes": []
   },
   {
+   "pid": "g8_011",
    "grade": 8,
    "title": "桃花源记（节选）",
    "author": "陶渊明",
@@ -7648,9 +10035,14 @@ window.POEM_BANK = {
     "近",
     "红"
    ],
-   "fact": "陶渊明(365—427),东晋代诗人。又名潜，字元亮，号五柳先生，东晋著名诗人，中国田园诗派的开创者。他不为五斗米折腰，辞官归隐，躬耕田园。其诗平淡自然，意境深远，影响深远。代表作:《饮酒》《归园田居》《桃花源记》。"
+   "fact": "陶渊明(365—427),东晋代诗人。又名潜，字元亮，号五柳先生，东晋著名诗人，中国田园诗派的开创者。他不为五斗米折腰，辞官归隐，躬耕田园。其诗平淡自然，意境深远，影响深远。代表作:《饮酒》《归园田居》《桃花源记》。",
+   "themes": [
+    "spring",
+    "nature"
+   ]
   },
   {
+   "pid": "g7_014",
    "grade": 7,
    "title": "狼",
    "author": "蒲松龄",
@@ -7669,9 +10061,11 @@ window.POEM_BANK = {
     "中",
     "行"
    ],
-   "fact": "《狼》是清时期蒲松龄的作品,入选语文七年级课本。"
+   "fact": "《狼》是清时期蒲松龄的作品,入选语文七年级课本。",
+   "themes": []
   },
   {
+   "pid": "g7_015",
    "grade": 7,
    "title": "陋室铭",
    "author": "刘禹锡",
@@ -7690,9 +10084,13 @@ window.POEM_BANK = {
     "那",
     "物"
    ],
-   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。"
+   "fact": "刘禹锡(772—842),唐代诗人。字梦得，唐代诗人、文学家，与白居易并称「刘白」。他性格刚毅，诗风豪迈，《陋室铭》《竹枝词》等作品流传千古。即使身处逆境，仍保持乐观旷达的精神。代表作:《陋室铭》《望洞庭》《竹枝词》《秋词》。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g8_013",
    "grade": 8,
    "title": "爱莲说",
    "author": "周敦颐",
@@ -7711,9 +10109,15 @@ window.POEM_BANK = {
     "等",
     "情"
    ],
-   "fact": "《爱莲说》是宋时期周敦颐的作品,入选语文八年级课本。"
+   "fact": "《爱莲说》是宋时期周敦颐的作品,入选语文八年级课本。",
+   "themes": [
+    "nature",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g9_009",
    "grade": 9,
    "title": "醉翁亭记（节选）",
    "author": "欧阳修",
@@ -7732,9 +10136,15 @@ window.POEM_BANK = {
     "闲",
     "滁"
    ],
-   "fact": "欧阳修(1007—1072),宋代诗人。字永叔，号醉翁，北宋文坛领袖，唐宋八大家之一。他力排浮艳的西昆体，倡导平实文风，与韩愈、柳宗元共同推动古文运动。词作清新自然，婉约动人。代表作:《醉翁亭记》《采桑子》《玉楼春》。"
+   "fact": "欧阳修(1007—1072),宋代诗人。字永叔，号醉翁，北宋文坛领袖，唐宋八大家之一。他力排浮艳的西昆体，倡导平实文风，与韩愈、柳宗元共同推动古文运动。词作清新自然，婉约动人。代表作:《醉翁亭记》《采桑子》《玉楼春》。",
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g10_007",
    "grade": 10,
    "title": "赤壁赋（节选）",
    "author": "苏轼",
@@ -7753,9 +10163,16 @@ window.POEM_BANK = {
     "空",
     "徐"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "nature",
+    "farewell",
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g11_006",
    "grade": 11,
    "title": "劝学（节选）",
    "author": "荀子",
@@ -7774,9 +10191,15 @@ window.POEM_BANK = {
     "以",
     "言"
    ],
-   "fact": "《劝学（节选）》是先秦时期荀子的作品,入选语文十一年级课本。"
+   "fact": "《劝学（节选）》是先秦时期荀子的作品,入选语文十一年级课本。",
+   "themes": [
+    "winter",
+    "farewell",
+    "homeland"
+   ]
   },
   {
+   "pid": "g12_006",
    "grade": 12,
    "title": "师说（节选）",
    "author": "韩愈",
@@ -7795,9 +10218,11 @@ window.POEM_BANK = {
     "射",
     "学"
    ],
-   "fact": "韩愈(768—824),唐代诗人。字退之，唐代文学家、思想家，唐宋八大家之首。他倡导古文运动，主张「文以载道」。韩愈也是杰出诗人，其诗风雄奇险怪，与孟郊并称「韩孟诗派」。代表作:《早春呈水部张十八员外》《左迁至蓝关示侄孙湘》。"
+   "fact": "韩愈(768—824),唐代诗人。字退之，唐代文学家、思想家，唐宋八大家之首。他倡导古文运动，主张「文以载道」。韩愈也是杰出诗人，其诗风雄奇险怪，与孟郊并称「韩孟诗派」。代表作:《早春呈水部张十八员外》《左迁至蓝关示侄孙湘》。",
+   "themes": []
   },
   {
+   "pid": "g10_008",
    "grade": 10,
    "title": "阿房宫赋（节选）",
    "author": "杜牧",
@@ -7816,9 +10241,14 @@ window.POEM_BANK = {
     "折",
     "骨"
    ],
-   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。"
+   "fact": "杜牧(803—852),唐代诗人。字牧之，号樊川居士，晚唐杰出诗人。他的诗风格俊爽明快，七绝尤为出色，与李商隐并称「小李杜」。杜牧多才多艺，诗、赋、散文均有很高成就。代表作:《山行》《清明》《江南春》《泊船瓜洲》《赤壁》。",
+   "themes": [
+    "nature",
+    "farewell"
+   ]
   },
   {
+   "pid": "g11_007",
    "grade": 11,
    "title": "过秦论（节选）",
    "author": "贾谊",
@@ -7837,9 +10267,14 @@ window.POEM_BANK = {
     "户",
     "猿"
    ],
-   "fact": "《过秦论（节选）》是汉时期贾谊的作品,入选语文十一年级课本。"
+   "fact": "《过秦论（节选）》是汉时期贾谊的作品,入选语文十一年级课本。",
+   "themes": [
+    "nature",
+    "frontier"
+   ]
   },
   {
+   "pid": "g12_007",
    "grade": 12,
    "title": "逍遥游（节选）",
    "author": "庄子",
@@ -7858,9 +10293,13 @@ window.POEM_BANK = {
     "乡",
     "为"
    ],
-   "fact": "《逍遥游（节选）》是先秦时期庄子的作品,入选语文十二年级课本。"
+   "fact": "《逍遥游（节选）》是先秦时期庄子的作品,入选语文十二年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_028",
    "grade": 6,
    "title": "核舟记（节选）",
    "author": "魏学洢",
@@ -7879,9 +10318,13 @@ window.POEM_BANK = {
     "笛",
     "焉"
    ],
-   "fact": "《核舟记（节选）》是明时期魏学洢的作品,入选语文六年级课本。"
+   "fact": "《核舟记（节选）》是明时期魏学洢的作品,入选语文六年级课本。",
+   "themes": [
+    "nature"
+   ]
   },
   {
+   "pid": "g6_029",
    "grade": 6,
    "title": "口技",
    "author": "林嗣环",
@@ -7900,9 +10343,13 @@ window.POEM_BANK = {
     "善",
     "有"
    ],
-   "fact": "《口技》是清时期林嗣环的作品,入选语文六年级课本。"
+   "fact": "《口技》是清时期林嗣环的作品,入选语文六年级课本。",
+   "themes": [
+    "homeland"
+   ]
   },
   {
+   "pid": "g5_021",
    "grade": 5,
    "title": "童趣",
    "author": "沈复",
@@ -7921,9 +10368,14 @@ window.POEM_BANK = {
     "倚",
     "杜"
    ],
-   "fact": "《童趣》是清时期沈复的作品,入选语文五年级课本。"
+   "fact": "《童趣》是清时期沈复的作品,入选语文五年级课本。",
+   "themes": [
+    "homeland",
+    "autumn"
+   ]
   },
   {
+   "pid": "g7_016",
    "grade": 7,
    "title": "孙权劝学",
    "author": "司马光",
@@ -7942,9 +10394,14 @@ window.POEM_BANK = {
     "抚",
     "多"
    ],
-   "fact": "《孙权劝学》是宋时期司马光的作品,入选语文七年级课本。"
+   "fact": "《孙权劝学》是宋时期司马光的作品,入选语文七年级课本。",
+   "themes": [
+    "frontier",
+    "farewell"
+   ]
   },
   {
+   "pid": "g8_014",
    "grade": 8,
    "title": "记承天寺夜游",
    "author": "苏轼",
@@ -7963,9 +10420,13 @@ window.POEM_BANK = {
     "思",
     "无"
    ],
-   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。"
+   "fact": "苏轼(1037—1101),宋代诗人。字子瞻，号东坡居士，北宋文学家，唐宋八大家之一。他多才多艺，诗、词、文、书、画均有极高成就。苏轼性格旷达，屡遭贬谪而不改其志，词开豪放一派。代表作:《题西林壁》《饮湖上初晴后雨》《惠崇春江晚景》《水调歌头》《念奴娇》。",
+   "themes": [
+    "patriot"
+   ]
   },
   {
+   "pid": "g9_010",
    "grade": 9,
    "title": "湖心亭看雪",
    "author": "张岱",
@@ -7984,7 +10445,13 @@ window.POEM_BANK = {
     "别",
     "五"
    ],
-   "fact": "《湖心亭看雪》是明时期张岱的作品,入选语文九年级课本。"
+   "fact": "《湖心亭看雪》是明时期张岱的作品,入选语文九年级课本。",
+   "themes": [
+    "winter",
+    "nature",
+    "farewell",
+    "homeland"
+   ]
   }
  ],
  "poets": {
@@ -8186,5 +10653,502 @@ window.POEM_BANK = {
    "bio": "字长吉，唐代诗人，被称为「诗鬼」。他的诗想象奇特，意象诡异，语言瑰丽冷艳，在唐代诗坛独树一帜，对后世影响深远。",
    "works": "《雁门太守行》《马诗》《李凭箜篌引》"
   }
- }
+ },
+ "themes": [
+  {
+   "id": "spring",
+   "name": "春日物语",
+   "icon": "🌸",
+   "tier": "main",
+   "color": "#e88ba8",
+   "quote": "等闲识得东风面,万紫千红总是春",
+   "unlock": "always",
+   "poemIds": [
+    "g1_003",
+    "g1_007",
+    "g1_008",
+    "g2_008",
+    "g2_009",
+    "g2_010",
+    "g2_012",
+    "g2_013",
+    "g3_010",
+    "g3_011",
+    "g3_013",
+    "g3_014",
+    "g3_015",
+    "g3_017",
+    "g3_018",
+    "g4_004",
+    "g4_011",
+    "g4_013",
+    "g5_005",
+    "g5_008",
+    "g5_010",
+    "g5_014",
+    "g5_016",
+    "g5_018",
+    "g6_006",
+    "g6_009",
+    "g6_011",
+    "g6_014",
+    "g6_015",
+    "g6_018",
+    "g6_019",
+    "g6_020",
+    "g6_021",
+    "g6_023",
+    "g6_024",
+    "g6_025",
+    "g6_027",
+    "g7_003",
+    "g7_009",
+    "g8_002",
+    "g8_003",
+    "g8_005",
+    "g8_007",
+    "g8_008",
+    "g8_009",
+    "g9_002",
+    "g9_004",
+    "g9_005",
+    "g10_001",
+    "g11_002",
+    "g11_003",
+    "g11_004",
+    "g11_005",
+    "g12_002",
+    "g12_003",
+    "g12_005",
+    "g9_008",
+    "g8_011"
+   ]
+  },
+  {
+   "id": "winter",
+   "name": "冬雪寒梅",
+   "icon": "❄️",
+   "tier": "main",
+   "color": "#5c8fc7",
+   "quote": "遥知不是雪,为有暗香来",
+   "unlock": "always",
+   "poemIds": [
+    "g1_014",
+    "g2_001",
+    "g2_005",
+    "g2_012",
+    "g3_002",
+    "g3_004",
+    "g3_012",
+    "g4_004",
+    "g4_009",
+    "g4_011",
+    "g4_013",
+    "g4_016",
+    "g4_017",
+    "g4_018",
+    "g5_006",
+    "g5_007",
+    "g5_012",
+    "g5_013",
+    "g5_015",
+    "g6_005",
+    "g6_011",
+    "g6_015",
+    "g6_018",
+    "g7_008",
+    "g7_011",
+    "g8_008",
+    "g9_001",
+    "g9_003",
+    "g9_004",
+    "g10_001",
+    "g10_004",
+    "g10_005",
+    "g11_002",
+    "g11_005",
+    "g12_004",
+    "g12_005",
+    "g11_006",
+    "g9_010"
+   ]
+  },
+  {
+   "id": "nature",
+   "name": "山水田园",
+   "icon": "⛰️",
+   "tier": "main",
+   "color": "#4e8d5b",
+   "quote": "绿树村边合,青山郭外斜",
+   "unlock": "always",
+   "poemIds": [
+    "g1_001",
+    "g1_002",
+    "g1_003",
+    "g1_004",
+    "g1_010",
+    "g1_012",
+    "g1_013",
+    "g2_002",
+    "g2_003",
+    "g2_004",
+    "g2_005",
+    "g2_006",
+    "g2_007",
+    "g2_008",
+    "g2_011",
+    "g2_012",
+    "g2_013",
+    "g2_014",
+    "g3_001",
+    "g3_002",
+    "g3_004",
+    "g3_005",
+    "g3_006",
+    "g3_007",
+    "g3_008",
+    "g3_009",
+    "g3_010",
+    "g3_012",
+    "g3_015",
+    "g3_016",
+    "g3_018",
+    "g4_001",
+    "g4_003",
+    "g4_005",
+    "g4_006",
+    "g4_010",
+    "g4_011",
+    "g4_012",
+    "g4_013",
+    "g4_014",
+    "g4_015",
+    "g4_016",
+    "g5_003",
+    "g5_005",
+    "g5_006",
+    "g5_007",
+    "g5_008",
+    "g5_011",
+    "g5_013",
+    "g5_014",
+    "g5_015",
+    "g5_017",
+    "g5_018",
+    "g5_020",
+    "g6_002",
+    "g6_003",
+    "g6_004",
+    "g6_005",
+    "g6_009",
+    "g6_010",
+    "g6_014",
+    "g6_015",
+    "g6_016",
+    "g6_017",
+    "g6_022",
+    "g6_023",
+    "g6_024",
+    "g6_025",
+    "g6_026",
+    "g7_001",
+    "g7_002",
+    "g7_003",
+    "g7_005",
+    "g7_007",
+    "g7_010",
+    "g7_011",
+    "g7_012",
+    "g8_001",
+    "g8_002",
+    "g8_004",
+    "g8_005",
+    "g8_006",
+    "g8_007",
+    "g8_010",
+    "g9_001",
+    "g9_002",
+    "g9_004",
+    "g9_005",
+    "g9_006",
+    "g10_001",
+    "g10_002",
+    "g10_003",
+    "g10_005",
+    "g10_006",
+    "g11_001",
+    "g11_002",
+    "g11_003",
+    "g11_005",
+    "g12_001",
+    "g12_004",
+    "g9_008",
+    "g8_011",
+    "g7_015",
+    "g8_013",
+    "g9_009",
+    "g10_007",
+    "g10_008",
+    "g11_007",
+    "g12_007",
+    "g6_028",
+    "g9_010"
+   ]
+  },
+  {
+   "id": "frontier",
+   "name": "边塞烽烟",
+   "icon": "⚔️",
+   "tier": "main",
+   "color": "#a5603a",
+   "quote": "黄沙百战穿金甲,不破楼兰终不还",
+   "unlock": "always",
+   "poemIds": [
+    "g4_002",
+    "g4_006",
+    "g4_007",
+    "g4_017",
+    "g5_008",
+    "g5_015",
+    "g5_017",
+    "g6_005",
+    "g6_009",
+    "g6_015",
+    "g6_020",
+    "g7_007",
+    "g7_008",
+    "g7_011",
+    "g8_003",
+    "g8_007",
+    "g8_008",
+    "g9_001",
+    "g9_005",
+    "g10_006",
+    "g11_001",
+    "g11_002",
+    "g12_004",
+    "g12_005",
+    "g9_007",
+    "g11_007",
+    "g7_016"
+   ]
+  },
+  {
+   "id": "farewell",
+   "name": "送别之情",
+   "icon": "💌",
+   "tier": "emotion",
+   "color": "#b06fb5",
+   "quote": "桃花潭水深千尺,不及汪伦送我情",
+   "unlock": "always",
+   "poemIds": [
+    "g1_008",
+    "g2_010",
+    "g2_011",
+    "g3_003",
+    "g3_004",
+    "g3_014",
+    "g3_015",
+    "g4_007",
+    "g4_009",
+    "g4_013",
+    "g4_016",
+    "g5_004",
+    "g5_016",
+    "g5_019",
+    "g6_003",
+    "g6_004",
+    "g6_007",
+    "g6_009",
+    "g6_010",
+    "g6_020",
+    "g6_025",
+    "g7_007",
+    "g8_004",
+    "g8_006",
+    "g8_007",
+    "g9_001",
+    "g9_002",
+    "g9_003",
+    "g9_004",
+    "g10_002",
+    "g10_003",
+    "g10_004",
+    "g11_002",
+    "g11_005",
+    "g12_001",
+    "g12_002",
+    "g9_009",
+    "g10_007",
+    "g11_006",
+    "g10_008",
+    "g7_016",
+    "g9_010"
+   ]
+  },
+  {
+   "id": "homeland",
+   "name": "思乡之愁",
+   "icon": "🏮",
+   "tier": "emotion",
+   "color": "#c46a4a",
+   "quote": "举头望明月,低头思故乡",
+   "unlock": "after:farewell",
+   "poemIds": [
+    "g1_009",
+    "g2_001",
+    "g2_005",
+    "g3_004",
+    "g3_013",
+    "g3_016",
+    "g3_017",
+    "g4_008",
+    "g4_015",
+    "g4_016",
+    "g5_006",
+    "g5_007",
+    "g5_016",
+    "g5_020",
+    "g6_001",
+    "g6_007",
+    "g6_013",
+    "g6_018",
+    "g6_019",
+    "g6_020",
+    "g7_003",
+    "g7_004",
+    "g7_005",
+    "g7_007",
+    "g7_008",
+    "g7_011",
+    "g8_002",
+    "g8_004",
+    "g8_007",
+    "g9_002",
+    "g10_001",
+    "g10_002",
+    "g10_003",
+    "g10_004",
+    "g11_002",
+    "g11_003",
+    "g11_005",
+    "g12_001",
+    "g9_008",
+    "g8_013",
+    "g9_009",
+    "g10_007",
+    "g11_006",
+    "g6_029",
+    "g5_021",
+    "g9_010"
+   ]
+  },
+  {
+   "id": "autumn",
+   "name": "秋思离愁",
+   "icon": "🍁",
+   "tier": "emotion",
+   "color": "#c98a2e",
+   "quote": "无边落木萧萧下,不尽长江滚滚来",
+   "unlock": "after:homeland",
+   "poemIds": [
+    "g1_006",
+    "g1_009",
+    "g2_012",
+    "g2_013",
+    "g3_002",
+    "g3_003",
+    "g3_004",
+    "g3_007",
+    "g4_009",
+    "g4_017",
+    "g5_001",
+    "g5_005",
+    "g5_006",
+    "g5_017",
+    "g6_004",
+    "g6_013",
+    "g6_014",
+    "g6_015",
+    "g6_026",
+    "g7_001",
+    "g7_003",
+    "g7_004",
+    "g7_005",
+    "g7_007",
+    "g7_008",
+    "g7_009",
+    "g7_010",
+    "g7_012",
+    "g8_001",
+    "g8_003",
+    "g8_006",
+    "g8_008",
+    "g9_006",
+    "g10_001",
+    "g10_004",
+    "g11_002",
+    "g11_004",
+    "g11_005",
+    "g12_001",
+    "g12_002",
+    "g12_004",
+    "g9_007",
+    "g8_013",
+    "g10_007",
+    "g5_021"
+   ]
+  },
+  {
+   "id": "patriot",
+   "name": "家国情怀",
+   "icon": "🚩",
+   "tier": "emotion",
+   "color": "#b03a2e",
+   "quote": "人生自古谁无死,留取丹心照汗青",
+   "unlock": "after:autumn",
+   "poemIds": [
+    "g5_002",
+    "g5_004",
+    "g5_017",
+    "g6_020",
+    "g7_011",
+    "g8_003",
+    "g8_004",
+    "g8_007",
+    "g9_004",
+    "g10_002",
+    "g10_005",
+    "g11_001",
+    "g11_002",
+    "g11_003",
+    "g11_004",
+    "g12_003",
+    "g12_004",
+    "g8_014"
+   ]
+  },
+  {
+   "id": "wisdom",
+   "name": "哲理之思",
+   "icon": "🧠",
+   "tier": "advanced",
+   "color": "#5a5f9e",
+   "quote": "不识庐山真面目,只缘身在此山中",
+   "unlock": "all_main",
+   "poemIds": [
+    "g2_003",
+    "g2_010",
+    "g4_002",
+    "g4_003",
+    "g4_004",
+    "g5_009",
+    "g5_010",
+    "g6_014",
+    "g6_016",
+    "g6_017",
+    "g6_024"
+   ]
+  }
+ ]
 };
