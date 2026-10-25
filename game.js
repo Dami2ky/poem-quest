@@ -122,6 +122,7 @@ function addRecord(kind, label, stars) {
   records.unshift({ p: me().name, ava: me().avatar, ym: nowYM(), kind, label, stars: stars || null });
   if (records.length > 200) records.length = 200;
   save("pq_records", records);
+  CloudSync.schedulePush();   // 云同步:每条成绩自动上传(去抖 3s)
 }
 
 /* ════════ 运行状态 ════════ */
@@ -133,6 +134,7 @@ let timer = null;
 function showScreen(id) {
   $$(".screen").forEach(s => s.classList.remove("active"));
   $("#" + id).classList.add("active");
+  if (id === "screen-title") CloudSync.pull();   // 回主页时拉取家人最新数据
 }
 function openOverlay(html) {
   $("#overlay-card").innerHTML = html;
@@ -967,3 +969,36 @@ document.addEventListener("pointerdown", function once() {
 });
 $("#sound-toggle").textContent = Sound.enabled ? "🔊" : "🔇";
 updatePlayerChip();
+
+/* ════════ 云同步初始化(家庭数据集:花名册/成绩/进度/图鉴) ════════ */
+CloudSync.init({
+  game: "poem",
+  collect: () => ({
+    roster,
+    records,
+    best: bestStars,
+    themes: themeProg,
+    unlocked: [...unlocked],
+    versus: versusRec,
+  }),
+  apply: s => {
+    roster = s.roster || roster;
+    save("pq_roster", roster);
+    records.length = 0; records.push(...(s.records || [])); save("pq_records", records);
+    Object.keys(bestStars).forEach(k => delete bestStars[k]); Object.assign(bestStars, s.best || {}); save("pq_best", bestStars);
+    Object.keys(themeProg).forEach(k => delete themeProg[k]); Object.assign(themeProg, s.themes || {}); save("pq_themes", themeProg);
+    unlocked.clear(); (s.unlocked || []).forEach(x => unlocked.add(x)); save("pq_unlocked", [...unlocked]);
+    Object.keys(versusRec).forEach(k => delete versusRec[k]); Object.assign(versusRec, s.versus || {}); save("pq_versus", versusRec);
+    if (roster.length && !roster.some(p => p.id === currentPid)) {
+      currentPid = roster[0].id; save("pq_current", currentPid);
+    }
+    updatePlayerChip();
+  },
+  render: () => {
+    const id = document.querySelector(".screen.active")?.id;
+    if (id === "screen-honor") renderHonor();
+    if (id === "screen-poets") renderPoets();
+    if (id === "screen-theme") renderThemes();
+    if (id === "screen-player") renderRoster();
+  },
+});
