@@ -116,7 +116,7 @@ const themeProg = load("pq_themes", {});  // {themeId: {cleared, stars}}
 function me() { return roster.find(p => p.id === currentPid) || roster[0]; }
 function nowYM() {
   const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 function addRecord(kind, label, stars) {
   records.unshift({ p: me().name, ava: me().avatar, ym: nowYM(), kind, label, stars: stars || null });
@@ -188,11 +188,15 @@ $("#btn-poets").addEventListener("click", () => {
 });
 $("#btn-honor").addEventListener("click", () => {
   Sound.click();
+  CloudSync.pull();            // 打开荣誉榜先拉家人最新数据(拉完自动刷新本屏)
+  CloudSync.schedulePush();    // 并把本机独有的数据(如新建玩家)回传,双向收敛
   renderHonor();
   showScreen("screen-honor");
 });
 $("#player-chip").addEventListener("click", () => {
   Sound.click();
+  CloudSync.pull();            // 打开花名册先拉取
+  CloudSync.schedulePush();    // 并回传本机独有数据
   renderRoster();
   showScreen("screen-player");
 });
@@ -891,6 +895,7 @@ function renderRoster() {
         roster = roster.filter(x => x.id !== p.id);
         if (currentPid === p.id) { currentPid = roster[0].id; save("pq_current", currentPid); }
         save("pq_roster", roster);
+        CloudSync.schedulePush();   // 删人即同步
         closeOverlay();
         renderRoster();
       });
@@ -924,6 +929,7 @@ $("#btn-add-player").addEventListener("click", () => {
   Sound.correct();
   roster.push({ id: Date.now(), name, avatar: pickedAvatar });
   save("pq_roster", roster);
+  CloudSync.schedulePush();   // 加人即上传,其他设备可见
   $("#new-player-name").value = "";
   renderRoster();
 });
