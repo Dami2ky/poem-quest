@@ -516,6 +516,53 @@ button { font-family: inherit; cursor: pointer; }
   to { transform: translateY(118vh) rotate(720deg); opacity: .4; }
 }
 
+/* ════════ v1.2:云同步 UI ════════ */
+#cloud-btn {
+  position: fixed; top: 14px; right: 70px; z-index: 300;
+  width: 46px; height: 46px; border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.15);
+  background: rgba(255,255,255,.7);
+  font-size: 20px;
+}
+#cloud-btn:active { transform: scale(.9); }
+
+#cloud-panel {
+  position: fixed; inset: 0; z-index: 350;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(45,58,63,.45);
+  backdrop-filter: blur(4px);
+  animation: screen-in .25s both;
+}
+#cloud-panel .cp-card {
+  width: min(440px, 90vw);
+  background: #fffdf6;
+  border-radius: 22px;
+  padding: 24px 24px 18px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  animation: pop .35s cubic-bezier(.2,1.5,.4,1) both;
+}
+.cp-title { font-family: var(--kai); font-size: 20px; font-weight: 700; color: var(--indigo); }
+.cp-title #cp-status { font-size: 13px; color: #7c7358; font-weight: 400; }
+.cp-desc { font-size: 13.5px; color: #6b5f45; line-height: 1.7; margin: 8px 0 12px; }
+.cp-input {
+  font-size: 17px; text-align: center; letter-spacing: .2em;
+  border: 2px solid #d8cfb6; border-radius: 12px;
+  padding: 10px 14px; width: 70%;
+  background: #fff; color: var(--ink);
+}
+.cp-input:focus { outline: none; border-color: var(--indigo); }
+.cp-row { display: flex; gap: 10px; justify-content: center; margin: 12px 0 8px; }
+.cp-btn {
+  border: none; border-radius: 999px;
+  padding: 10px 18px; font-size: 14.5px; font-weight: 700; color: #fff;
+  background: linear-gradient(180deg, #3d7a9c, var(--indigo));
+}
+.cp-btn:active { transform: scale(.95); }
+.cp-auto { display: block; font-size: 13px; color: #7c7358; margin: 4px 0 6px; }
+.cp-hint { min-height: 20px; font-size: 13px; color: var(--cinnabar); }
+.cp-close { border: none; background: transparent; font-size: 14px; color: #9a8f74; margin-top: 4px; }
+
 /* ════════ v1.1:玩家标识 / 主题 / 花名册 / 荣誉榜 ════════ */
 
 .player-chip {
