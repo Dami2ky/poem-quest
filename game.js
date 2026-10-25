@@ -110,7 +110,8 @@ if (!roster || !roster.length) {
 let currentPid = load("pq_current", roster[0].id);
 if (!roster.some(p => p.id === currentPid)) currentPid = roster[0].id;
 
-const records = load("pq_records", []);   // [{p, ava, ym(YYYY-MM), kind, label, stars}] 新的在前
+const records = load("pq_records", []);  
+const removedPlayers = new Set(load("pq_removed", []));   // 已删除玩家墓碑(防同步复活)   // [{p, ava, ym(YYYY-MM), kind, label, stars}] 新的在前
 const themeProg = load("pq_themes", {});  // {themeId: {cleared, stars}}
 
 function me() { return roster.find(p => p.id === currentPid) || roster[0]; }
@@ -895,7 +896,9 @@ function renderRoster() {
         roster = roster.filter(x => x.id !== p.id);
         if (currentPid === p.id) { currentPid = roster[0].id; save("pq_current", currentPid); }
         save("pq_roster", roster);
-        CloudSync.schedulePush();   // 删人即同步
+        removedPlayers.add(p.name);
+        save("pq_removed", [...removedPlayers]);
+        CloudSync.schedulePush();   // 删人即同步(墓碑防复活)
         closeOverlay();
         renderRoster();
       });
@@ -928,6 +931,8 @@ $("#btn-add-player").addEventListener("click", () => {
   }
   Sound.correct();
   roster.push({ id: Date.now(), name, avatar: pickedAvatar });
+  removedPlayers.delete(name);
+  save("pq_removed", [...removedPlayers]);
   save("pq_roster", roster);
   CloudSync.schedulePush();   // 加人即上传,其他设备可见
   $("#new-player-name").value = "";
@@ -986,6 +991,7 @@ CloudSync.init({
   game: "poem",
   collect: () => ({
     roster,
+    removed: [...removedPlayers],
     records,
     best: bestStars,
     themes: themeProg,
@@ -993,7 +999,10 @@ CloudSync.init({
     versus: versusRec,
   }),
   apply: s => {
-    roster = s.roster || roster;
+    removedPlayers.clear();
+    (s.removed || []).forEach(x => removedPlayers.add(x));
+    save("pq_removed", [...removedPlayers]);
+    roster = (s.roster || roster).filter(x => !removedPlayers.has(x.name));
     save("pq_roster", roster);
     records.length = 0; records.push(...(s.records || [])); save("pq_records", records);
     Object.keys(bestStars).forEach(k => delete bestStars[k]); Object.assign(bestStars, s.best || {}); save("pq_best", bestStars);
