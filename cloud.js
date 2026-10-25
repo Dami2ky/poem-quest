@@ -69,10 +69,12 @@
 
   function mergePayload(cloudState, localPayload) {
     const rules = cfg.game === "poem"
-      ? { roster: merge.roster, records: merge.records, best: merge.nestedMax, themes: merge.nestedMax, unlocked: merge.union, versus: merge.byMax }
-      : { progress: merge.nestedMax, versus: merge.byMax };
+      ? { roster: merge.roster, records: merge.records, best: merge.nestedMax, themes: merge.nestedMax, unlocked: merge.union, versus: merge.byMax, removed: merge.union }
+      : { roster: merge.roster, records: merge.records, progress: merge.nestedMax, versus: merge.byMax, removed: merge.union };
     const out = {};
     for (const key in rules) out[key] = rules[key](cloudState && cloudState[key], localPayload[key]);
+    // 墓碑:已删除玩家从合并后的花名册中剔除(防并集复活)
+    if (out.removed && out.roster) out.roster = out.roster.filter(p => !out.removed.includes(p.name));
     return out;
   }
 
