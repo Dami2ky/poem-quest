@@ -10,7 +10,7 @@ const MAX_HEARTS = 3;
 const CHOICE_TIME = 20;    // 选择题限时(秒)
 const FILL_TIME = 25;      // 填空题限时(秒)
 
-const GRADE_CN = { 1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六",
+const GRADE_CN = { 0: "课外", 1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六",
                    7: "七", 8: "八", 9: "九", 10: "十", 11: "十一", 12: "十二" };
 const POET_EMOJI = ["🧑‍🎨", "👨‍📖", "🧙", "🧝", "👨‍🌾", "🧑‍💼", "🎭", "🖌️"];
 
@@ -220,6 +220,7 @@ function setMode(m) {
 
 function renderGrades() {
   const groups = [
+    { label: "课外拓展", grades: [0] },   // chinese-poetry 唐诗三百首等(grade=0)
     { label: "小学", grades: [1, 2, 3, 4, 5, 6] },
     { label: "初中", grades: [7, 8, 9] },
     { label: "高中", grades: [10, 11, 12] },
@@ -234,8 +235,9 @@ function renderGrades() {
         ? BANK.questions.filter(q => q.grade === gr).length
         : BANK.fills.filter(f => f.grade === gr).length;
       const stars = bestStars[`${gr}:${gradeMode}`] || 0;
+      const name = gr === 0 ? "课外拓展" : `${GRADE_CN[gr]}年级`;
       return `<button class="grade-btn" data-grade="${gr}">
-        <div class="g-name">${GRADE_CN[gr]}年级</div>
+        <div class="g-name">${name}</div>
         <div class="g-count">${n} 题 ${stars ? "⭐".repeat(stars) : ""}</div>
       </button>`;
     }).join("");
@@ -280,7 +282,10 @@ function startRound(grade) {
     hearts: MAX_HEARTS, correctCount: 0, unlockedNow: [], locked: false
   };
   showScreen("screen-quiz");
-  $("#grade-badge").textContent = `${GRADE_CN[grade]}年级 · ${gradeMode === "choice" ? "选择题" : "填空题"}`;
+  const badge = quiz.grade === 0
+    ? `课外拓展 · ${gradeMode === "choice" ? "选择题" : "填空题"}`
+    : `${GRADE_CN[quiz.grade]}年级 · ${gradeMode === "choice" ? "选择题" : "填空题"}`;
+  $("#grade-badge").textContent = badge;
   $("#versus-bar").classList.add("hidden");
   renderQuestion();
 }
@@ -570,7 +575,7 @@ $("#btn-start-versus").addEventListener("click", () => {
 function startVersus() {
   const P1 = roster.find(p => p.id === vsSel.p1) || roster[0];
   const P2 = roster.find(p => p.id === vsSel.p2) || roster[1] || roster[0];
-  const easy = shuffle(BANK.questions.filter(q => q.grade <= 6)).slice(0, 3);
+  const easy = shuffle(BANK.questions.filter(q => q.grade >= 1 && q.grade <= 6)).slice(0, 3);  // 课外(0)暂不进对战,见接入指南
   const hard = shuffle(BANK.questions.filter(q => q.grade >= 7)).slice(0, 3);
   quiz = {
     kind: "versus",
